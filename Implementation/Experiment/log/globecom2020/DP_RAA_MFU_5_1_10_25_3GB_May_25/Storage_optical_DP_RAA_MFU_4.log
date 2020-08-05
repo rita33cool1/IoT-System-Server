@@ -1,0 +1,172 @@
+time: 0
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 0
+
+time: 1
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+Storage usage: 0
+
+time: 2
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 0
+
+time: 3
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 0
+
+time: 4
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 0
+
+time: 5
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 0
+
+time: 6
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 0
+
+time: 7
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 0
+
+time: 8
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 0
+
+time: 9
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+Storage usage: 1794791706.0
+
+time: 10
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Traceback (most recent call last):
+  File "/home/minion/YC/iscc19/Implementation/Measurement/storage_usage.py", line 224, in <module>
+    measure_storage()
+  File "/home/minion/YC/iscc19/Implementation/Measurement/storage_usage.py", line 215, in measure_storage
+    exist_images = get_allimages()
+  File "/home/minion/YC/iscc19/Implementation/Measurement/storage_usage.py", line 185, in get_allimages
+    images = client.images.list(name=overall_repo)
+  File "/home/minion/.local/lib/python2.7/site-packages/docker/models/images.py", line 358, in list
+    resp = self.client.api.images(name=name, all=all, filters=filters)
+  File "/home/minion/.local/lib/python2.7/site-packages/docker/api/image.py", line 89, in images
+    res = self._result(self._get(self._url("/images/json"), params=params),
+  File "/home/minion/.local/lib/python2.7/site-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/home/minion/.local/lib/python2.7/site-packages/docker/api/client.py", line 225, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/home/minion/.local/lib/python2.7/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/minion/.local/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/minion/.local/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/minion/.local/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', error(2, 'No such file or directory'))
+
+time: 11
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 2813711882.0
+
+time: 12
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+Storage usage: 1794791706.0
+
+time: 13
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+Storage usage: 1794791706.0
+
+time: 14
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 2638481414.0
+
+time: 15
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 2638481414.0
+
+time: 16
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Traceback (most recent call last):
+  File "/home/minion/YC/iscc19/Implementation/Measurement/storage_usage.py", line 224, in <module>
+    measure_storage()
+  File "/home/minion/YC/iscc19/Implementation/Measurement/storage_usage.py", line 215, in measure_storage
+    exist_images = get_allimages()
+  File "/home/minion/YC/iscc19/Implementation/Measurement/storage_usage.py", line 185, in get_allimages
+    images = client.images.list(name=overall_repo)
+  File "/home/minion/.local/lib/python2.7/site-packages/docker/models/images.py", line 358, in list
+    resp = self.client.api.images(name=name, all=all, filters=filters)
+  File "/home/minion/.local/lib/python2.7/site-packages/docker/api/image.py", line 89, in images
+    res = self._result(self._get(self._url("/images/json"), params=params),
+  File "/home/minion/.local/lib/python2.7/site-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/home/minion/.local/lib/python2.7/site-packages/docker/api/client.py", line 225, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/home/minion/.local/lib/python2.7/site-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/minion/.local/lib/python2.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/minion/.local/lib/python2.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/minion/.local/lib/python2.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', error(2, 'No such file or directory'))
+
+time: 17
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 1794791706.0
+
+time: 18
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 1794791706.0
+
+time: 19
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 2638481414.0
+
+time: 20
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 2638481414.0
+
+time: 21
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 1794791706.0
+
+time: 22
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 1794791706.0
+
+time: 23
+surement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 2638481414.0
+
+time: 24
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 2638481414.0
+
+time: 25
+python ~/YC/iscc19/Implementation/Measurement/storage_usage.py
+python ~/YC/iscc19/Implementation/Measurement/storage__usage.py
+Storage usage: 2638481414.0
+

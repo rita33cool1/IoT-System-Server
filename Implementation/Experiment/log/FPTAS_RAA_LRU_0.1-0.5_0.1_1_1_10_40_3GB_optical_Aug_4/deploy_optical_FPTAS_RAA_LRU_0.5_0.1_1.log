@@ -1,0 +1,705 @@
+========
+num: 30 running time:30 bandwidth:100000
+**time:5
+pod "audio1-0" deleted
+pod "audio1-5" deleted
+pod "audio5-2" deleted
+pod "audio6-0" deleted
+======Replacement======
+Start replacing and Lock replace_time.input
+high_level: 0.8 low_level 0.6 policy: LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/replacement_algo.py 3.0 0.8 0.6 LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/repllacement_algo.py 3.0 0.8 0.6 LRU
+Before replaced_images: []
+Before replaced_layer_nums: []
+exist_images: []
+After replaced_images: []
+After replaced_layer_nums: []
+Before replacement_sz: 1200000000.0
+Storage usage: 0
+Available size: 3000000000.0
+After replacement_sz: -1800000000.0
+total_size: 3000000000.0
+high_level_sz: 2400000000.0
+[] []
+time: 0.03618669509887695
+
+Replace time: 0
+content 
+======Replacement Done======
+======Deploy Algo Result======
+cloud apps:  ['audio1-0', 'audio1-5', 'audio10-4', 'audio12-4', 'audio3-1', 'audio5-2', 'audio6-0', 'audio6-2', 'audio9-0', 'yolo11-3', 'yolo12-3', 'yolo2-0', 'yolo2-3', 'yolo4-3', 'yolo5-4', 'yolo7-0', 'yolo8-2']
+edge apps:  []
+common:  []
+Edge: ['audio1', 'audio1', 'audio5', 'audio6']
+Cloud: ['audio10', 'audio12', 'audio9', 'yolo11', 'yolo12', 'yolo2', 'yolo2', 'yolo4', 'yolo5', 'yolo8']
+Exec Time:  0.0139579772949
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio1
+app_image: audio1
+delete app:audio1-0
+
+s2-audio-1:Pullingfromiscc19
+9811207f4eba:Pullingfslayer
+0c8f4d0494dc:Pullingfslayer
+1954412987c0:Pullingfslayer
+1801b5eaa295:Pullingfslayer
+8a6861842a93:Pullingfslayer
+afc6a509a6e7:Pullingfslayer
+d296cedf3c5e:Pullingfslayer
+03c381950737:Pullingfslayer
+252f14004bd1:Pullingfslayer
+88ae96f02ad0:Pullingfslayer
+8f2b049fbae0:Pullingfslayer
+f4fe95975878:Pullingfslayer
+15c1d0e8bd4e:Pullingfslayer
+fd4b2c426fa1:Pullingfslayer
+95e0b5462122:Pullingfslayer
+239258fef3cc:Pullingfslayer
+707b3ee699a9:Pullingfslayer
+ae019b96296a:Pullingfslayer
+043453ba691c:Pullingfslayer
+e0f517086e97:Pullingfslayer
+40beee1e0f10:Pullingfslayer
+252f14004bd1:Waiting
+88ae96f02ad0:Waiting
+1801b5eaa295:Waiting
+d296cedf3c5e:Waiting
+03c381950737:Waiting
+8a6861842a93:Waiting
+8f2b049fbae0:Waiting
+afc6a509a6e7:Waiting
+e0f517086e97:Waiting
+707b3ee699a9:Waiting
+f4fe95975878:Waiting
+ae019b96296a:Waiting
+15c1d0e8bd4e:Waiting
+40beee1e0f10:Waiting
+fd4b2c426fa1:Waiting
+95e0b5462122:Waiting
+239258fef3cc:Waiting
+043453ba691c:Waiting
+0c8f4d0494dc:VerifyingChecksum
+0c8f4d0494dc:Downloadcomplete
+1954412987c0:VerifyingChecksum
+1954412987c0:Downloadcomplete
+8a6861842a93:VerifyingChecksum
+8a6861842a93:Downloadcomplete
+9811207f4eba:VerifyingChecksum
+9811207f4eba:Downloadcomplete
+d296cedf3c5e:VerifyingChecksum
+d296cedf3c5e:Downloadcomplete
+afc6a509a6e7:VerifyingChecksum
+afc6a509a6e7:Downloadcomplete
+03c381950737:VerifyingChecksum
+03c381950737:Downloadcomplete
+88ae96f02ad0:VerifyingChecksum
+88ae96f02ad0:Downloadcomplete
+9811207f4eba:Pullcomplete
+0c8f4d0494dc:Pullcomplete
+252f14004bd1:VerifyingChecksum
+252f14004bd1:Downloadcomplete
+f4fe95975878:VerifyingChecksum
+f4fe95975878:Downloadcomplete
+1954412987c0:Pullcomplete
+1801b5eaa295:Downloadcomplete
+fd4b2c426fa1:VerifyingChecksum
+fd4b2c426fa1:Downloadcomplete
+95e0b5462122:VerifyingChecksum
+95e0b5462122:Downloadcomplete
+239258fef3cc:Downloadcomplete
+707b3ee699a9:VerifyingChecksum
+707b3ee699a9:Downloadcomplete
+ae019b96296a:VerifyingChecksum
+ae019b96296a:Downloadcomplete
+1801b5eaa295:Pullcomplete
+8a6861842a93:Pullcomplete
+afc6a509a6e7:Pullcomplete
+d296cedf3c5e:Pullcomplete
+03c381950737:Pullcomplete
+252f14004bd1:Pullcomplete
+88ae96f02ad0:Pullcomplete
+15c1d0e8bd4e:VerifyingChecksum
+15c1d0e8bd4e:Downloadcomplete
+e0f517086e97:VerifyingChecksum
+e0f517086e97:Downloadcomplete
+40beee1e0f10:Downloadcomplete
+043453ba691c:VerifyingChecksum
+043453ba691c:Downloadcomplete
+8f2b049fbae0:VerifyingChecksum
+8f2b049fbae0:Downloadcomplete
+8f2b049fbae0:Pullcomplete
+f4fe95975878:Pullcomplete
+15c1d0e8bd4e:Pullcomplete
+fd4b2c426fa1:Pullcomplete
+95e0b5462122:Pullcomplete
+239258fef3cc:Pullcomplete
+707b3ee699a9:Pullcomplete
+ae019b96296a:Pullcomplete
+043453ba691c:Pullcomplete
+e0f517086e97:Pullcomplete
+40beee1e0f10:Pullcomplete
+Digest:sha256:6783ecc0c002f2c85e1bbbb2a4ecbe6ca6a13014f346ca0dc113074b0be928ad
+Status:Downloadednewerimagefor192.168.1.100:5000/iscc19:s2-audio-1
+
+real	2m11.723s
+user	0m0.185s
+sys	0m0.081s
+is_download: True
+k8s create analytic stdoutput:
+b'pod/audio1-edge-0 created\n'
+k8s create analytic erroutput:
+Deploy: audio1-0
+try deploy app number:  0
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio1
+app_image: audio1
+delete app:audio1-5
+
+s2-audio-1:Pullingfromiscc19
+Digest:sha256:6783ecc0c002f2c85e1bbbb2a4ecbe6ca6a13014f346ca0dc113074b0be928ad
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-1
+
+real	0m0.029s
+user	0m0.021s
+sys	0m0.003s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio1-edge-5 created\n'
+k8s create analytic erroutput:
+Deploy: audio1-5
+try deploy app number:  5
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio5
+app_image: audio5
+delete app:audio5-2
+
+s2-audio-5:Pullingfromiscc19
+e92ed755c008:Pullingfslayer
+b9fd7cb1ff8f:Pullingfslayer
+ee690f2d57a1:Pullingfslayer
+53e3366ec435:Pullingfslayer
+3b2349088293:Pullingfslayer
+c4bc355c4bb6:Pullingfslayer
+a61b86390bd9:Pullingfslayer
+c43a6895b426:Pullingfslayer
+67a5938ecd4a:Pullingfslayer
+2a121114ae73:Pullingfslayer
+14a9b87e7a84:Pullingfslayer
+760f09a8ee2e:Pullingfslayer
+31b2471494b3:Pullingfslayer
+720a66aa6dca:Pullingfslayer
+9ebea6fd12e9:Pullingfslayer
+0d598eea27e3:Pullingfslayer
+d39e94ec8346:Pullingfslayer
+9d6c01c161c8:Pullingfslayer
+7eeea34e4686:Pullingfslayer
+a61b86390bd9:Waiting
+c43a6895b426:Waiting
+67a5938ecd4a:Waiting
+2a121114ae73:Waiting
+14a9b87e7a84:Waiting
+760f09a8ee2e:Waiting
+31b2471494b3:Waiting
+720a66aa6dca:Waiting
+9ebea6fd12e9:Waiting
+0d598eea27e3:Waiting
+53e3366ec435:Waiting
+d39e94ec8346:Waiting
+3b2349088293:Waiting
+c4bc355c4bb6:Waiting
+9d6c01c161c8:Waiting
+7eeea34e4686:Waiting
+b9fd7cb1ff8f:VerifyingChecksum
+b9fd7cb1ff8f:Downloadcomplete
+ee690f2d57a1:Downloadcomplete
+53e3366ec435:VerifyingChecksum
+53e3366ec435:Downloadcomplete
+c4bc355c4bb6:VerifyingChecksum
+c4bc355c4bb6:Downloadcomplete
+a61b86390bd9:VerifyingChecksum
+a61b86390bd9:Downloadcomplete
+3b2349088293:VerifyingChecksum
+3b2349088293:Downloadcomplete
+67a5938ecd4a:VerifyingChecksum
+67a5938ecd4a:Downloadcomplete
+2a121114ae73:VerifyingChecksum
+2a121114ae73:Downloadcomplete
+e92ed755c008:VerifyingChecksum
+e92ed755c008:Downloadcomplete
+760f09a8ee2e:VerifyingChecksum
+760f09a8ee2e:Downloadcomplete
+e92ed755c008:Pullcomplete
+b9fd7cb1ff8f:Pullcomplete
+ee690f2d57a1:Pullcomplete
+53e3366ec435:Pullcomplete
+3b2349088293:Pullcomplete
+c4bc355c4bb6:Pullcomplete
+a61b86390bd9:Pullcomplete
+c43a6895b426:VerifyingChecksum
+c43a6895b426:Downloadcomplete
+720a66aa6dca:VerifyingChecksum
+720a66aa6dca:Downloadcomplete
+9ebea6fd12e9:VerifyingChecksum
+9ebea6fd12e9:Downloadcomplete
+0d598eea27e3:VerifyingChecksum
+0d598eea27e3:Downloadcomplete
+c43a6895b426:Pullcomplete
+67a5938ecd4a:Pullcomplete
+2a121114ae73:Pullcomplete
+d39e94ec8346:Downloadcomplete
+31b2471494b3:VerifyingChecksum
+31b2471494b3:Downloadcomplete
+7eeea34e4686:VerifyingChecksum
+7eeea34e4686:Downloadcomplete
+9d6c01c161c8:VerifyingChecksum
+9d6c01c161c8:Downloadcomplete
+14a9b87e7a84:VerifyingChecksum
+14a9b87e7a84:Downloadcomplete
+14a9b87e7a84:Pullcomplete
+760f09a8ee2e:Pullcomplete
+31b2471494b3:Pullcomplete
+720a66aa6dca:Pullcomplete
+9ebea6fd12e9:Pullcomplete
+0d598eea27e3:Pullcomplete
+d39e94ec8346:Pullcomplete
+9d6c01c161c8:Pullcomplete
+7eeea34e4686:Pullcomplete
+Digest:sha256:fb07e7fefa7398e482839606b3ef71146b2e768f69bd3fd70f996052b73bc002
+Status:Downloadednewerimagefor192.168.1.100:5000/iscc19:s2-audio-5
+
+real	1m52.181s
+user	0m0.147s
+sys	0m0.119s
+is_download: True
+k8s create analytic stdoutput:
+b'pod/audio5-edge-2 created\n'
+k8s create analytic erroutput:
+Deploy: audio5-2
+try deploy app number:  2
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio6
+app_image: audio6
+delete app:audio6-0
+
+s2-audio-6:Pullingfromiscc19
+e92ed755c008:Alreadyexists
+b9fd7cb1ff8f:Alreadyexists
+ee690f2d57a1:Alreadyexists
+53e3366ec435:Alreadyexists
+3b2349088293:Alreadyexists
+c4bc355c4bb6:Alreadyexists
+fba56d5b53b2:Pullingfslayer
+c7a87d55b343:Pullingfslayer
+5082ac5bec7f:Pullingfslayer
+3aa40cb79e1c:Pullingfslayer
+aeff70e58a21:Pullingfslayer
+2779c4218ec6:Pullingfslayer
+87a8b2502090:Pullingfslayer
+f907520a2b5c:Pullingfslayer
+5d82373585d6:Pullingfslayer
+d74070ae6935:Pullingfslayer
+44902de9371b:Pullingfslayer
+6c6c9e7d4bc8:Pullingfslayer
+c10f9164a095:Pullingfslayer
+8dca52e0844f:Pullingfslayer
+3aa40cb79e1c:Waiting
+aeff70e58a21:Waiting
+2779c4218ec6:Waiting
+87a8b2502090:Waiting
+5d82373585d6:Waiting
+6c6c9e7d4bc8:Waiting
+f907520a2b5c:Waiting
+8dca52e0844f:Waiting
+c10f9164a095:Waiting
+44902de9371b:Waiting
+5082ac5bec7f:VerifyingChecksum
+5082ac5bec7f:Downloadcomplete
+3aa40cb79e1c:VerifyingChecksum
+3aa40cb79e1c:Downloadcomplete
+fba56d5b53b2:VerifyingChecksum
+fba56d5b53b2:Downloadcomplete
+2779c4218ec6:VerifyingChecksum
+2779c4218ec6:Downloadcomplete
+fba56d5b53b2:Pullcomplete
+87a8b2502090:VerifyingChecksum
+87a8b2502090:Downloadcomplete
+c7a87d55b343:VerifyingChecksum
+c7a87d55b343:Downloadcomplete
+5d82373585d6:VerifyingChecksum
+5d82373585d6:Downloadcomplete
+d74070ae6935:VerifyingChecksum
+d74070ae6935:Downloadcomplete
+44902de9371b:VerifyingChecksum
+44902de9371b:Downloadcomplete
+c7a87d55b343:Pullcomplete
+5082ac5bec7f:Pullcomplete
+3aa40cb79e1c:Pullcomplete
+6c6c9e7d4bc8:VerifyingChecksum
+6c6c9e7d4bc8:Downloadcomplete
+f907520a2b5c:VerifyingChecksum
+f907520a2b5c:Downloadcomplete
+8dca52e0844f:VerifyingChecksum
+8dca52e0844f:Downloadcomplete
+c10f9164a095:VerifyingChecksum
+c10f9164a095:Downloadcomplete
+aeff70e58a21:VerifyingChecksum
+aeff70e58a21:Downloadcomplete
+aeff70e58a21:Pullcomplete
+2779c4218ec6:Pullcomplete
+87a8b2502090:Pullcomplete
+f907520a2b5c:Pullcomplete
+5d82373585d6:Pullcomplete
+d74070ae6935:Pullcomplete
+44902de9371b:Pullcomplete
+6c6c9e7d4bc8:Pullcomplete
+c10f9164a095:Pullcomplete
+8dca52e0844f:Pullcomplete
+Digest:sha256:222f8b6e860b2a3d37f1f1ceabf2af7015ae22c01fab13d84c012aa5664f03df
+Status:Downloadednewerimagefor192.168.1.100:5000/iscc19:s2-audio-6
+
+real	2m26.743s
+user	0m0.185s
+sys	0m0.070s
+is_download: True
+fail to deploy audio6 with period 3 since audio6 has departured
+Deploy: audio6
+Fail to deploy app number:  audio6
+no need to download (edge), time:  5
+**time:10
+pod "audio6-10" deleted
+pod "audio6-8" deleted
+pod "audio1-7" deleted
+pod "audio5-9" deleted
+======Replacement======
+Start replacing and Lock replace_time.input
+high_level: 0.8 low_level 0.6 policy: LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/replacement_algo.py 3.0 0.8 0.6 LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/repllacement_algo.py 3.0 0.8 0.6 LRU
+Before replaced_images: []
+Before replaced_layer_nums: []
+exist_images: ['192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1']
+After replaced_images: []
+After replaced_layer_nums: []
+Before replacement_sz: 1200000000.0
+Storage usage: 2383631150.0
+Available size: 616368850.0
+After replacement_sz: 583631150.0
+total_size: 3000000000.0
+high_level_sz: 2400000000.0
+[] []
+time: 0.09192705154418945
+
+Replace time: 0
+content '192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1'
+======Replacement Done======
+======Deploy Algo Result======
+cloud apps:  ['audio1-7', 'audio2-10', 'audio3-6', 'audio4-8', 'audio5-9', 'audio6-10', 'audio6-8', 'audio7-6', 'audio9-8', 'yolo11-3', 'yolo2-3', 'yolo4-3', 'yolo5-10', 'yolo5-4', 'yolo6-8', 'yolo8-2', 'yolo9-9']
+edge apps:  ['audio5-edge-2']
+common:  ['audio5-9']
+Edge: ['audio6', 'audio6', 'audio1', 'audio5']
+Cloud: ['audio2', 'audio3', 'audio4', 'audio7', 'audio9', 'yolo11', 'yolo2', 'yolo4', 'yolo5', 'yolo5', 'yolo6', 'yolo8', 'yolo9']
+Exec Time:  0.0299198627472
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio6
+app_image: audio6
+delete app:audio6-10
+
+s2-audio-6:Pullingfromiscc19
+Digest:sha256:222f8b6e860b2a3d37f1f1ceabf2af7015ae22c01fab13d84c012aa5664f03df
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-6
+
+real	0m0.031s
+user	0m0.017s
+sys	0m0.009s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio6-edge-10 created\n'
+k8s create analytic erroutput:
+Deploy: audio6-10
+try deploy app number:  10
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio6
+app_image: audio6
+delete app:audio6-8
+
+s2-audio-6:Pullingfromiscc19
+Digest:sha256:222f8b6e860b2a3d37f1f1ceabf2af7015ae22c01fab13d84c012aa5664f03df
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-6
+
+real	0m0.032s
+user	0m0.016s
+sys	0m0.008s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio6-edge-8 created\n'
+k8s create analytic erroutput:
+Deploy: audio6-8
+try deploy app number:  8
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio1
+app_image: audio1
+delete app:audio1-7
+
+s2-audio-1:Pullingfromiscc19
+Digest:sha256:6783ecc0c002f2c85e1bbbb2a4ecbe6ca6a13014f346ca0dc113074b0be928ad
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-1
+
+real	0m0.036s
+user	0m0.019s
+sys	0m0.005s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio1-edge-7 created\n'
+k8s create analytic erroutput:
+Deploy: audio1-7
+try deploy app number:  7
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio5
+app_image: audio5
+delete app:audio5-9
+
+s2-audio-5:Pullingfromiscc19
+Digest:sha256:fb07e7fefa7398e482839606b3ef71146b2e768f69bd3fd70f996052b73bc002
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-5
+
+real	0m0.977s
+user	0m0.011s
+sys	0m0.008s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio5-edge-9 created\n'
+k8s create analytic erroutput:
+Deploy: audio5-9
+try deploy app number:  9
+**time:15
+======Replacement======
+Start replacing and Lock replace_time.input
+high_level: 0.8 low_level 0.6 policy: LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/repllacement_algo.py 3.0 0.8 0.6 LRU
+Before replaced_images: []
+Before replaced_layer_nums: []
+exist_images: ['192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1']
+After replaced_images: []
+After replaced_layer_nums: []
+Before replacement_sz: 1200000000.0
+Storage usage: 2383631150.0
+Available size: 616368850.0
+After replacement_sz: 583631150.0
+total_size: 3000000000.0
+high_level_sz: 2400000000.0
+[] []
+time: 0.09468865394592285
+
+Replace time: 0
+content '192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1'
+======Replacement Done======
+======Deploy Algo Result======
+cloud apps:  ['audio1-13', 'audio11-15', 'audio2-10', 'audio3-13', 'audio4-11', 'audio4-14', 'audio7-13', 'audio7-6', 'audio9-12', 'audio9-8', 'yolo10-12', 'yolo11-15', 'yolo2-11', 'yolo3-14', 'yolo4-11', 'yolo4-3', 'yolo5-10', 'yolo6-13', 'yolo8-12', 'yolo9-9']
+edge apps:  ['audio1-edge-7', 'audio6-edge-10']
+common:  ['audio1-13']
+Edge: ['']
+Cloud: ['audio11', 'audio2', 'audio3', 'audio4', 'audio7', 'audio9', 'yolo10', 'yolo11', 'yolo2', 'yolo3', 'yolo5', 'yolo6', 'yolo8', 'yolo9']
+Exec Time:  0.0277359485626
+terminal file content:  
+is_terminal:  False
+after IDA app:  
+continue app:  
+**time:20
+pod "audio1-19" deleted
+pod "audio1-20" deleted
+======Replacement======
+Start replacing and Lock replace_time.input
+high_level: 0.8 low_level 0.6 policy: LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/replacement_algo.py 3.0 0.8 0.6 LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/repllacement_algo.py 3.0 0.8 0.6 LRU
+Before replaced_images: []
+Before replaced_layer_nums: []
+exist_images: ['192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1']
+After replaced_images: []
+After replaced_layer_nums: []
+Before replacement_sz: 1200000000.0
+Storage usage: 2383631150.0
+Available size: 616368850.0
+After replacement_sz: 583631150.0
+total_size: 3000000000.0
+high_level_sz: 2400000000.0
+[] []
+time: 0.13799738883972168
+
+Replace time: 0
+content '192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1'
+======Replacement Done======
+======Deploy Algo Result======
+cloud apps:  ['audio1-19', 'audio1-20', 'audio11-15', 'audio11-16', 'audio11-18', 'audio12-19', 'audio2-10', 'audio3-13', 'audio3-17', 'audio4-14', 'audio4-18', 'audio8-18', 'audio9-12', 'audio9-19', 'yolo10-12', 'yolo10-19', 'yolo11-18', 'yolo12-18', 'yolo3-14', 'yolo3-16', 'yolo5-10', 'yolo5-17', 'yolo6-19', 'yolo7-19', 'yolo8-12', 'yolo8-16']
+edge apps:  []
+common:  []
+Edge: ['audio1', 'audio1']
+Cloud: ['audio11', 'audio12', 'audio4', 'audio8', 'audio9', 'audio9', 'yolo10', 'yolo10', 'yolo11', 'yolo12', 'yolo3', 'yolo5', 'yolo7', 'yolo8']
+Exec Time:  0.0255770683289
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio1
+app_image: audio1
+delete app:audio1-19
+
+s2-audio-1:Pullingfromiscc19
+Digest:sha256:6783ecc0c002f2c85e1bbbb2a4ecbe6ca6a13014f346ca0dc113074b0be928ad
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-1
+
+real	0m0.032s
+user	0m0.014s
+sys	0m0.013s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio1-edge-19 created\n'
+k8s create analytic erroutput:
+Deploy: audio1-19
+try deploy app number:  19
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio1
+app_image: audio1
+delete app:audio1-20
+
+s2-audio-1:Pullingfromiscc19
+Digest:sha256:6783ecc0c002f2c85e1bbbb2a4ecbe6ca6a13014f346ca0dc113074b0be928ad
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-1
+
+real	0m0.027s
+user	0m0.014s
+sys	0m0.009s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio1-edge-20 created\n'
+k8s create analytic erroutput:
+Deploy: audio1-20
+try deploy app number:  20
+**time:25
+pod "audio1-22" deleted
+pod "audio1-25" deleted
+======Replacement======
+Start replacing and Lock replace_time.input
+high_level: 0.8 low_level 0.6 policy: LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/replacement_algo.py 3.0 0.8 0.6 LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/repllacement_algo.py 3.0 0.8 0.6 LRU
+Before replaced_images: []
+Before replaced_layer_nums: []
+exist_images: ['192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1']
+After replaced_images: []
+After replaced_layer_nums: []
+Before replacement_sz: 1200000000.0
+Storage usage: 2383631150.0
+Available size: 616368850.0
+After replacement_sz: 583631150.0
+total_size: 3000000000.0
+high_level_sz: 2400000000.0
+[] []
+time: 0.10582661628723145
+
+Replace time: 0
+content '192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1'
+======Replacement Done======
+======Deploy Algo Result======
+cloud apps:  ['audio1-22', 'audio1-25', 'audio10-21', 'audio10-24', 'audio11-23', 'audio12-24', 'audio2-23', 'audio3-21', 'audio7-23', 'audio7-24', 'audio9-25', 'yolo1-25', 'yolo10-19', 'yolo10-23', 'yolo11-22', 'yolo12-18', 'yolo12-23', 'yolo7-19', 'yolo7-23', 'yolo8-21', 'yolo9-22']
+edge apps:  ['audio1-edge-19', 'audio1-edge-20']
+common:  ['audio1-22', 'audio1-25']
+Edge: ['audio1', 'audio1']
+Cloud: ['audio10', 'audio10', 'audio11', 'audio12', 'audio2', 'audio7', 'audio9', 'yolo1', 'yolo10', 'yolo10', 'yolo11', 'yolo12', 'yolo12', 'yolo7', 'yolo8', 'yolo9']
+Exec Time:  0.0257859230042
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio1
+app_image: audio1
+delete app:audio1-22
+
+s2-audio-1:Pullingfromiscc19
+Digest:sha256:6783ecc0c002f2c85e1bbbb2a4ecbe6ca6a13014f346ca0dc113074b0be928ad
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-1
+
+real	0m0.030s
+user	0m0.013s
+sys	0m0.014s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio1-edge-22 created\n'
+k8s create analytic erroutput:
+Deploy: audio1-22
+try deploy app number:  22
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio1
+app_image: audio1
+delete app:audio1-25
+
+s2-audio-1:Pullingfromiscc19
+Digest:sha256:6783ecc0c002f2c85e1bbbb2a4ecbe6ca6a13014f346ca0dc113074b0be928ad
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-1
+
+real	0m0.030s
+user	0m0.022s
+sys	0m0.000s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio1-edge-25 created\n'
+k8s create analytic erroutput:
+Deploy: audio1-25
+try deploy app number:  25
+**time:30
+pod "audio1-29" deleted
+======Replacement======
+Start replacing and Lock replace_time.input
+high_level: 0.8 low_level 0.6 policy: LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/replacement_algo.py 3.0 0.8 0.6 LRU
+python3 YC/iscc19/Implementation/Algo/Replacement/repllacement_algo.py 3.0 0.8 0.6 LRU
+Before replaced_images: []
+Before replaced_layer_nums: []
+exist_images: ['192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1']
+After replaced_images: []
+After replaced_layer_nums: []
+Before replacement_sz: 1200000000.0
+Storage usage: 2383631150.0
+Available size: 616368850.0
+After replacement_sz: 583631150.0
+total_size: 3000000000.0
+high_level_sz: 2400000000.0
+[] []
+time: 0.1142268180847168
+
+Replace time: 0
+content '192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-audio-1'
+======Replacement Done======
+======Deploy Algo Result======
+cloud apps:  ['audio1-29', 'audio12-24', 'audio4-26', 'audio7-24', 'audio9-25', 'yolo1-25', 'yolo10-23', 'yolo10-26', 'yolo12-23', 'yolo2-28', 'yolo3-28', 'yolo6-27', 'yolo9-27']
+edge apps:  ['audio1-edge-22']
+common:  ['audio1-29']
+Edge: ['audio1']
+Cloud: ['audio12', 'audio4', 'audio7', 'audio9', 'yolo10', 'yolo10', 'yolo12', 'yolo2', 'yolo6', 'yolo9']
+Exec Time:  0.0254979133606
+terminal file content:  
+is_terminal:  False
+after IDA app:  audio1
+app_image: audio1
+delete app:audio1-29
+
+s2-audio-1:Pullingfromiscc19
+Digest:sha256:6783ecc0c002f2c85e1bbbb2a4ecbe6ca6a13014f346ca0dc113074b0be928ad
+Status:Imageisuptodatefor192.168.1.100:5000/iscc19:s2-audio-1
+
+real	0m0.028s
+user	0m0.016s
+sys	0m0.008s
+is_download: False
+k8s create analytic stdoutput:
+b'pod/audio1-edge-29 created\n'
+k8s create analytic erroutput:
+Deploy: audio1-29
+try deploy app number:  29

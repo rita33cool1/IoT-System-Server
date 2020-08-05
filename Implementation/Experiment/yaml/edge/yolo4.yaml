@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: yolo4-edge-9
+        labels:
+          location: edge
+spec:
+        volumes:
+        - name: tmp-volume
+          hostPath:
+            path: /tmp
+            type: Directory
+        containers:
+        - name: object-detection
+          image: 192.168.1.100:5000/iscc19:s2-yolo-4
+          volumeMounts:
+          - name: tmp-volume
+            mountPath: /tmp
+          env:
+          - name: SENSOR_BROKER
+            value: "192.168.1.102"
+          - name: RESULT_BROKER
+            value: "192.168.1.100"
+          - name: DEVICE
+            value: "edge"
+          - name: PERIOD
+            value: "2"
+          - name: APP
+            value: "yolo4-edge-9"
+          command: ["python","yolo.py"]
+        nodeSelector:
+          device: "minion-nuc-cloud"

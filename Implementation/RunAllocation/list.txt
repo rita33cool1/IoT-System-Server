@@ -1,0 +1,12 @@
+NAME        READY     STATUS        RESTARTS   AGE
+audio1-54   1/1       Running       0          7m
+audio2-52   1/1       Terminating   0          9m
+audio2-53   1/1       Running       0          8m
+audio2-57   1/1       Running       0          3m
+audio3-48   1/1       Running       0          12m
+audio3-60   1/1       Running       0          1m
+audio4-51   1/1       Running       0          9m
+yolo1-54    1/1       Running       0          7m
+yolo4-56    1/1       Running       0          5m
+yolo5-44    1/1       Terminating   0          16m
+yolo5-59    1/1       Running       0          1m

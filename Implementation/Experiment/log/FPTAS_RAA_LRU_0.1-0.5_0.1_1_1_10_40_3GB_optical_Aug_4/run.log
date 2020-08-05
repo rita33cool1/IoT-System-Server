@@ -1,0 +1,3153 @@
++++++++++++ FPTAS + RAA + LRU ++++++++++
+No resources found
+kubect delete all pods
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_1_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.1_0.1_1_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_1
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+3c9a3492b2cf
+b0f6ee7c2d7a
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio1-edge-22" deleted
+pod "audio1-edge-29" deleted
+pod "audio12-24" deleted
+pod "audio4-26" deleted
+pod "audio9-25" deleted
+pod "yolo10-23" deleted
+pod "yolo10-26" deleted
+pod "yolo12-23" deleted
+pod "yolo2-28" deleted
+pod "yolo3-28" deleted
+pod "yolo6-edge-17" deleted
+pod "yolo6-edge-27" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+c2e042dd2d81
+9d8f7c355fce
+ecbf5edd111d
+b830de354e22
+4b188f4f08cf
+e66781a35a89
+107ac0891d2c
+aab21c44380a
+993d8c2f8f67
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+660c9c9481f7
+3f67c25d20cc
+
+712afbcf2c26
+05990ddafa03
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_1_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.2_0.1_1_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_1
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+3dd7b160eb41
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio1-edge-22" deleted
+pod "audio1-edge-29" deleted
+pod "audio12-edge-24" deleted
+pod "audio4-26" deleted
+pod "audio9-25" deleted
+pod "yolo10-26" deleted
+pod "yolo12-23" deleted
+pod "yolo2-28" deleted
+pod "yolo6-27" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+8982dfbfb7bb
+9647cc63bc6d
+b0b14ff2ef0c
+cda8449a2ee3
+2f6617cd18f3
+2bc6c7254f40
+44c4808ba842
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+df590ac5cee3
+22b4b751f3c2
+
+298253fcc0b2
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+
+delete images_replce.log finish
+
+No screen session found.
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_1
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+0a805922bd43
+43563d7badc9
+e4538734f6c3
+89431e694f31
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio1-edge-22" deleted
+pod "audio1-edge-29" deleted
+pod "audio12-24" deleted
+pod "audio4-26" deleted
+pod "audio7-24" deleted
+pod "audio9-25" deleted
+pod "yolo10-26" deleted
+pod "yolo12-23" deleted
+pod "yolo2-28" deleted
+pod "yolo6-edge-27" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+8a25e15c5972
+bdd3ac8340de
+4c2f22c9472d
+383ce7d3f156
+0a9a965d6f6f
+b28e6596125b
+1537165b0ff2
+701ba0165889
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_1_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_1
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+11bbd16ed341
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio1-edge-22" deleted
+pod "audio1-edge-29" deleted
+pod "audio10-edge-29" deleted
+pod "audio12-24" deleted
+pod "audio4-26" deleted
+pod "audio9-25" deleted
+pod "yolo10-23" deleted
+pod "yolo10-26" deleted
+pod "yolo12-23" deleted
+pod "yolo2-28" deleted
+pod "yolo6-27" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+73b856d58363
+672760e0c9cf
+34db3da3f462
+1e7ebf15daac
+2e8d84ef1dad
+f779aca7c66d
+f4bb7bc459d1
+544c30f75225
+5d90bd8e616b
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+07411d4ff418
+
+4a0cad4607c6
+0440f2c918dd
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_1_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_1
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+8540f563b302
+437d7b965c2b
+4bee8d020f02
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio1-edge-22" deleted
+pod "audio1-edge-29" deleted
+pod "audio12-24" deleted
+pod "audio4-26" deleted
+pod "audio7-24" deleted
+pod "audio9-25" deleted
+pod "yolo10-23" deleted
+pod "yolo10-26" deleted
+pod "yolo12-23" deleted
+pod "yolo2-28" deleted
+pod "yolo6-27" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+30a8c8d76b28
+350baa3d23fb
+bdf8f0e7abce
+d24e73aeafe2
+22e766e9e92c
+1738ffa3fffb
+752e5ad31da2
+3f5d49f546e8
+f9921e094cbf
+05de6dc5de32
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+
+c9c3b6aa0934
+c616fcf9905d
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_2_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_2
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+0d08b25b97f6
+dbef21251399
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-24" deleted
+pod "audio12-28" deleted
+pod "audio2-21" deleted
+pod "audio3-23" deleted
+pod "audio5-edge-27" deleted
+pod "audio6-edge-21" deleted
+pod "audio6-edge-26" deleted
+pod "audio8-edge-22" deleted
+pod "audio8-edge-25" deleted
+pod "audio8-edge-27" deleted
+pod "audio9-27" deleted
+pod "yolo10-28" deleted
+pod "yolo2-28" deleted
+pod "yolo4-28" deleted
+pod "yolo7-29" deleted
+pod "yolo9-28" deleted
+pod "yolo9-29" deleted
+kubect delete all pods
+f0fb25d52a79
+6d0c7dc5e8a7
+0b4e576d5a6d
+951efc7ad56c
+378ac3abb465
+e614ee11cdf2
+7fb7bd6adc27
+5927871e6762
+98dc021417db
+a4aff35facc0
+6a03e2b02e0f
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+0ba54d2a8fff
+ed70fd4eb3b1
+7a7ae6be9b4b
+
+f5e24c1936c8
+0b1e212c0f89
+35b13f590534
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_2_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_2
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio12-28" deleted
+pod "audio2-21" deleted
+pod "audio5-27" deleted
+pod "audio6-edge-21" deleted
+pod "audio6-edge-25" deleted
+pod "audio6-edge-26" deleted
+pod "audio8-edge-13" deleted
+pod "audio8-edge-25" deleted
+pod "audio9-27" deleted
+pod "yolo10-28" deleted
+pod "yolo2-28" deleted
+pod "yolo4-28" deleted
+pod "yolo5-27" deleted
+pod "yolo5-29" deleted
+pod "yolo7-29" deleted
+pod "yolo8-edge-17" deleted
+pod "yolo9-28" deleted
+pod "yolo9-29" deleted
+kubect delete all pods
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+8bb0c4641a21
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_2_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_2
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+caefeef4283c
+dab46113e752
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-24" deleted
+pod "audio12-28" deleted
+pod "audio2-edge-21" deleted
+pod "audio3-23" deleted
+pod "audio5-edge-27" deleted
+pod "audio6-edge-21" deleted
+pod "audio6-edge-26" deleted
+pod "audio8-25" deleted
+pod "audio9-27" deleted
+pod "yolo10-28" deleted
+pod "yolo2-28" deleted
+pod "yolo4-28" deleted
+pod "yolo5-27" deleted
+pod "yolo7-29" deleted
+pod "yolo9-28" deleted
+pod "yolo9-29" deleted
+kubect delete all pods
+75fbac51641f
+39cb915023e8
+12a618a92142
+48d97fb3a8e7
+1331751cce62
+beae216aad4d
+d876a4e37baf
+6b736e0568c2
+f5b2c140cb90
+9ec7ca0a563b
+b78c5db7e5ce
+f20dbc5dbfb1
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+ " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+966fc94a6630
+
+da75e6062387
+e15a84dac00e
+14549765f8fe
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_2_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_2
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio12-28" deleted
+pod "audio2-21" deleted
+pod "audio5-27" deleted
+pod "audio6-edge-21" deleted
+pod "audio6-edge-26" deleted
+pod "audio8-edge-13" deleted
+pod "audio8-edge-25" deleted
+pod "audio9-27" deleted
+pod "yolo10-28" deleted
+pod "yolo2-28" deleted
+pod "yolo4-28" deleted
+pod "yolo5-27" deleted
+pod "yolo7-29" deleted
+pod "yolo9-28" deleted
+pod "yolo9-29" deleted
+kubect delete all pods
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  do
+cker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+2d467d0f2531
+
+d262761b5af0
+a598df550133
+
+c73c5b83d177
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_2_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.5_0.1_2_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_2
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+c2b595e629e1
+b94449b34131
+4b356f278c27
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-24" deleted
+pod "audio12-28" deleted
+pod "audio2-21" deleted
+pod "audio3-23" deleted
+pod "audio5-edge-27" deleted
+pod "audio6-edge-21" deleted
+pod "audio6-edge-26" deleted
+pod "audio8-edge-25" deleted
+pod "audio8-edge-27" deleted
+pod "audio9-27" deleted
+pod "yolo10-28" deleted
+pod "yolo2-28" deleted
+pod "yolo4-28" deleted
+pod "yolo5-27" deleted
+pod "yolo5-29" deleted
+pod "yolo7-29" deleted
+pod "yolo9-28" deleted
+pod "yolo9-29" deleted
+kubect delete all pods
+d78c2eb6ee3f
+396c1315de93
+5a694b65e4cf
+a0f40d208c2f
+a7fcea9f0a0d
+5ef18049a18e
+e4c9b46ebec5
+a29d5e32eb40
+049a28fa00d2
+2cc7357987b3
+4625971144cd
+8a81d7cb2230
+027e2e7a4ab6
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_3_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_3
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+c5099b131857
+eb57554fb712
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-edge-24" deleted
+pod "audio11-edge-26" deleted
+pod "audio11-edge-3" deleted
+pod "audio5-edge-29" deleted
+pod "audio7-edge-25" deleted
+pod "audio9-28" deleted
+pod "yolo10-26" deleted
+pod "yolo3-28" deleted
+pod "yolo3-29" deleted
+pod "yolo4-23" deleted
+pod "yolo4-28" deleted
+pod "yolo5-28" deleted
+pod "yolo7-25" deleted
+pod "yolo8-25" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+a46a684494ed
+10357edc2e52
+b012b2fc96e6
+05a4e33ba193
+be90998dc9bc
+e8156f85089a
+0a91588b2585
+bf8f9a7e8d56
+5e95034e00cc
+ba2b0e6fac46
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+9699bae4d7b6
+6a5eef7169a8
+
+87cc90e98047
+
+cedc04cdbf92
+22d4b32c3e6d
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_3_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.2_0.1_3_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_3
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-edge-24" deleted
+pod "audio11-edge-26" deleted
+pod "audio11-edge-3" deleted
+pod "audio5-edge-29" deleted
+pod "audio9-28" deleted
+pod "yolo10-26" deleted
+pod "yolo3-28" deleted
+pod "yolo3-29" deleted
+pod "yolo4-28" deleted
+pod "yolo5-28" deleted
+pod "yolo7-25" deleted
+pod "yolo8-25" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+11d7a518b9f6
+3b0f32d75962
+bfca602420eb
+8a547ad57912
+cbfc5819ac52
+9da148c3f609
+5322ec648c02
+89ebce86bcd8
+4bcf194dc687
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+c2b86a25e74a
+4595599d2d9b
+
+6b2997a00ec7
+
+5d1eab2c8aba
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_3_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.3_0.1_3_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_3
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-edge-24" deleted
+pod "audio11-edge-26" deleted
+pod "audio11-edge-3" deleted
+pod "audio5-edge-29" deleted
+pod "audio9-28" deleted
+pod "yolo10-26" deleted
+pod "yolo3-28" deleted
+pod "yolo3-29" deleted
+pod "yolo4-28" deleted
+pod "yolo5-28" deleted
+pod "yolo7-25" deleted
+pod "yolo8-25" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+7869f3334508
+268cb7176d6a
+9cf576771ad9
+7bfa82dd5581
+785e24836349
+711271a51de0
+373245ebb8a3
+59466713f98f
+a06d602e98c2
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.4
+_0.1_3_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.4_0.1_3_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_3
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-edge-24" deleted
+pod "audio11-edge-26" deleted
+pod "audio11-edge-3" deleted
+pod "audio5-edge-29" deleted
+pod "audio9-28" deleted
+pod "yolo10-26" deleted
+pod "yolo3-28" deleted
+pod "yolo3-29" deleted
+pod "yolo4-23" deleted
+pod "yolo4-28" deleted
+pod "yolo5-28" deleted
+pod "yolo7-25" deleted
+pod "yolo8-25" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+a102bc8bef56
+94da5bb0f2eb
+f2f824188aea
+2dffbb0cf015
+5d1891587e18
+d5b7fa750226
+cd04c011531a
+3b49bd022f2b
+aca3069b0e21
+28892f425e57
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+3f9035d3be69
+
+abd88e84ddc7
+be6e0b44134c
+778076ee720e
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_3_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.5_0.1_3_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_3
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-edge-24" deleted
+pod "audio11-edge-26" deleted
+pod "audio11-edge-8" deleted
+pod "audio5-edge-29" deleted
+pod "audio7-edge-25" deleted
+pod "audio9-28" deleted
+pod "yolo10-26" deleted
+pod "yolo3-28" deleted
+pod "yolo3-29" deleted
+pod "yolo4-28" deleted
+pod "yolo5-28" deleted
+pod "yolo7-25" deleted
+pod "yolo8-25" deleted
+pod "yolo9-27" deleted
+kubect delete all pods
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+4521c84b04b0
+
+f5b40946f5d1
+41ab9f3d7795
+796725c7ed53
+75c7983aa761
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_4_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_4
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+9fa24328e62a
+17987085d207
+8d09c3d341df
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio4-24" deleted
+pod "audio4-28" deleted
+pod "audio5-24" deleted
+pod "audio6-edge-21" deleted
+pod "audio6-edge-29" deleted
+pod "audio9-26" deleted
+pod "audio9-29" deleted
+pod "yolo1-25" deleted
+pod "yolo10-edge-25" deleted
+pod "yolo10-edge-26" deleted
+pod "yolo10-edge-27" deleted
+pod "yolo11-24" deleted
+pod "yolo6-21" deleted
+pod "yolo6-23" deleted
+pod "yolo7-28" deleted
+kubect delete all pods
+c44271aa5d9a
+7be042ef336f
+7e63479ffbd0
+025657006eaf
+ead5e53fd70b
+39461ef8f50a
+f2845952beef
+f7e3f65b163a
+675cc9a4fad5
+0bc43ff3c698
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+a65d82ec20e8
+28037b63614f
+
+a149c2390b45
+f9c46a337dd5
+7bcf30be8948
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_4_0802_2233
+
+
+
+delete images_replce.log finish
+
+No screen session found.
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_4
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+1f1c4943bec4
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio4-24" deleted
+pod "audio4-28" deleted
+pod "audio5-24" deleted
+pod "audio6-edge-21" deleted
+pod "audio6-edge-29" deleted
+pod "audio8-27" deleted
+pod "audio9-26" deleted
+pod "audio9-29" deleted
+pod "yolo1-25" deleted
+pod "yolo10-25" deleted
+pod "yolo10-26" deleted
+pod "yolo10-27" deleted
+pod "yolo11-24" deleted
+pod "yolo6-21" deleted
+pod "yolo6-23" deleted
+pod "yolo7-28" deleted
+kubect delete all pods
+64cde8c35719
+51dfecffa5f4
+58fd327dc656
+e571306bf0a9
+6971b355f4e1
+0826080b6611
+70236997ca43
+c5cf85d834be
+71b08c3cb965
+557ebd4ffbb2
+533aa83b8370
+48f0236f0b0c
+52023fd325d7
+372aa4734cd5
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_4_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.3_0.1_4_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_4
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio4-28" deleted
+pod "audio5-edge-24" deleted
+pod "audio6-21" deleted
+pod "audio9-26" deleted
+pod "audio9-29" deleted
+pod "yolo1-25" deleted
+pod "yolo10-26" deleted
+pod "yolo10-27" deleted
+pod "yolo10-edge-25" deleted
+pod "yolo11-24" deleted
+pod "yolo6-21" deleted
+pod "yolo6-23" deleted
+pod "yolo7-28" deleted
+kubect delete all pods
+6cf78f309231
+bc6bae9c995e
+aca8dfcbaa66
+4fe7fad25b3c
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+b49368be86af
+ff8d1c62b19d
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_4_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.4_0.1_4_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+
+Delete audio over
+
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_4
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+d9fdff33e48f
+411baa6b27aa
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio4-24" deleted
+pod "audio4-28" deleted
+pod "audio5-edge-24" deleted
+pod "audio6-edge-21" deleted
+pod "audio6-edge-29" deleted
+pod "audio8-27" deleted
+pod "audio9-edge-26" deleted
+pod "audio9-edge-29" deleted
+pod "yolo1-25" deleted
+pod "yolo10-25" deleted
+pod "yolo10-26" deleted
+pod "yolo10-27" deleted
+pod "yolo11-24" deleted
+pod "yolo6-21" deleted
+pod "yolo7-28" deleted
+kubect delete all pods
+4e96807f47c8
+d025b22700a9
+496e268f67d9
+fa1967c2ad17
+4441e26143ac
+863a3d0005d1
+dc168cc007b1
+7d73b03badd9
+d1c124919a31
+f74f5e22e892
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+e75e19beae7f
+
+d650ccd82467
+e5c702cab926
+f9a4a61b2db7
+cd5316290db9
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_4_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.5_0.1_4_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_4
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+8b658a79e817
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio4-28" deleted
+pod "audio5-edge-24" deleted
+pod "audio6-edge-21" deleted
+pod "audio9-edge-26" deleted
+pod "audio9-edge-29" deleted
+pod "yolo1-25" deleted
+pod "yolo10-25" deleted
+pod "yolo10-26" deleted
+pod "yolo10-27" deleted
+pod "yolo11-24" deleted
+pod "yolo6-21" deleted
+pod "yolo6-23" deleted
+pod "yolo7-28" deleted
+kubect delete all pods
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+700a417f9b8d
+8513c2584b1e
+7ec9e65aae8a
+416d96bc756f
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_5_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.1_0.1_5_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.1_0.1_5
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-edge-29" deleted
+pod "audio2-21" deleted
+pod "audio3-24" deleted
+pod "audio4-29" deleted
+pod "audio5-edge-27" deleted
+pod "audio5-edge-28" deleted
+pod "audio7-edge-19" deleted
+pod "audio8-23" deleted
+pod "yolo1-26" deleted
+pod "yolo1-28" deleted
+pod "yolo10-25" deleted
+pod "yolo12-28" deleted
+pod "yolo2-22" deleted
+pod "yolo2-28" deleted
+pod "yolo3-28" deleted
+pod "yolo4-29" deleted
+pod "yolo5-24" deleted
+pod "yolo6-23" deleted
+pod "yolo8-23" deleted
+pod "yolo8-26" deleted
+kubect delete all pods
+0f973128ed71
+1843bd0ddfbe
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py F
+PTAS_RAA_LRU_0.2_0.1_5_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.2_0.1_5_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.2_0.1_5
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+570c28f44031
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio2-21" deleted
+pod "audio3-24" deleted
+pod "audio4-29" deleted
+pod "audio5-edge-27" deleted
+pod "audio5-edge-28" deleted
+pod "audio7-edge-21" deleted
+pod "audio8-23" deleted
+pod "yolo1-26" deleted
+pod "yolo1-28" deleted
+pod "yolo12-28" deleted
+pod "yolo2-22" deleted
+pod "yolo2-28" deleted
+pod "yolo3-28" deleted
+pod "yolo4-29" deleted
+pod "yolo5-24" deleted
+pod "yolo6-23" deleted
+pod "yolo8-23" deleted
+pod "yolo8-26" deleted
+kubect delete all pods
+6e46cc27e8b4
+2734e5da8599
+9809fb01a7e5
+7d22e455d900
+a28f7d805703
+92b19f52996b
+850f457ac76c
+c8fecfa1c7b0
+700eda42c36c
+ca8e5a327e67
+797d1af1929f
+36998b34bd56
+9fd3f171c7ea
+98832925124d
+79257ea9afde
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+d9611db9b768
+
+9f5c69f9846b
+06837072032f
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_5_0802_2233
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.3_0.1_5_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.3_0.1_5
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+eb495740b601
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio2-21" deleted
+pod "audio3-24" deleted
+pod "audio4-29" deleted
+pod "audio5-edge-27" deleted
+pod "audio5-edge-28" deleted
+pod "audio8-23" deleted
+pod "yolo1-26" deleted
+pod "yolo1-28" deleted
+pod "yolo12-28" deleted
+pod "yolo2-22" deleted
+pod "yolo2-28" deleted
+pod "yolo3-28" deleted
+pod "yolo4-29" deleted
+pod "yolo5-24" deleted
+pod "yolo6-23" deleted
+pod "yolo8-23" deleted
+pod "yolo8-26" deleted
+kubect delete all pods
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_5_0802_2233
+
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.4_0.1_5
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+ac89c7b61014
+18a8ed53b3aa
+023be419db78
+ca49e0a704bc
+3c14007683cc
+d23fa345db75
+ac984bee436d
+ad683ae65fd5
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
++++++++++++ FPTAS + RAA + LRU ++++++++++
+pod "audio11-29" deleted
+pod "audio2-21" deleted
+pod "audio3-24" deleted
+pod "audio4-29" deleted
+pod "audio5-edge-27" deleted
+pod "audio8-23" deleted
+pod "yolo1-26" deleted
+pod "yolo1-28" deleted
+pod "yolo12-28" deleted
+pod "yolo2-22" deleted
+pod "yolo2-28" deleted
+pod "yolo3-28" deleted
+pod "yolo4-29" deleted
+pod "yolo5-edge-24" deleted
+pod "yolo6-23" deleted
+pod "yolo8-23" deleted
+pod "yolo8-26" deleted
+kubect delete all pods
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+e83f287d8670
+bf4c39f971e9
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+
+python3 YC/iscc19/delete_all_images.py FPTAS_RAA_LRU_00.5_0.1_5_0802_2233
+
+delete images_replce.log finish
+
+No screen session found.
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py FPTAS_RAA_LRU_0.5_0.1_5
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+
+It's END
+
+pod "audio4-29" deleted
+pod "audio5-edge-27" deleted
+pod "audio5-edge-28" deleted
+pod "audio8-23" deleted
+pod "yolo1-26" deleted
+pod "yolo1-28" deleted
+pod "yolo12-28" deleted
+pod "yolo2-22" deleted
+pod "yolo2-28" deleted
+pod "yolo3-28" deleted
+pod "yolo4-29" deleted
+pod "yolo5-24" deleted
+pod "yolo6-23" deleted
+pod "yolo8-23" deleted
+pod "yolo8-26" deleted
+60d93fb140d5
+8518026d62d1
+f8a8b82bc64e
+dd4ac5fdcea6
+7e3646991cb6
+ec2e47d3a5b9
+9d7fdeb2dc26
+ed57f501986a
+281f45adcfd8
+cab6dc5d448e
+15f58a7e8b93
+4d7ab872385d
+b0aadc0caf63
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+e97b1bce1516
+86ad7dffc88e
+
+========== cloud delete containers ==========
+
+========== cloud clean download image logs ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+It's END
+

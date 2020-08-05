@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: audio9-23
+        labels:
+          location: cloud
+spec:
+        volumes:
+        - name: tmp-volume
+          hostPath:
+            path: /tmp
+            type: Directory
+        containers:
+        - name: audio-recognition
+          image: 192.168.1.100:5000/iscc19:s2-audio-9
+          volumeMounts:
+          - name: tmp-volume
+            mountPath: /tmp
+          env:
+          - name: SENSOR_BROKER
+            value: "192.168.1.102"
+          - name: RESULT_BROKER
+            value: "192.168.1.100"
+          - name: DEVICE
+            value: cloud
+          - name: PERIOD
+            value: "3"
+          - name: APP
+            value: audio9-23
+          command: ["python","audio_classify.py"]
+        nodeSelector:
+          device: master

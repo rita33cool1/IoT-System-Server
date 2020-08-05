@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: audio4-edge-22
+        labels:
+          location: edge
+spec:
+        volumes:
+        - name: tmp-volume
+          hostPath:
+            path: /tmp
+            type: Directory
+        containers:
+        - name: audio-recognition
+          image: 192.168.1.100:5000/iscc19:s2-audio-4
+          volumeMounts:
+          - name: tmp-volume
+            mountPath: /tmp
+          env:
+          - name: SENSOR_BROKER
+            value: "192.168.1.102"
+          - name: RESULT_BROKER
+            value: "192.168.1.100"
+          - name: DEVICE
+            value: "edge"
+          - name: PERIOD
+            value: "3"
+          - name: APP
+            value: "audio4-edge-22"
+          command: ["python3","audio_classify.py"]
+        nodeSelector:
+          device: "minion-nuc-cloud"

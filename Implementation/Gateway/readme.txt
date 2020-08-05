@@ -1,0 +1,3 @@
+Uncompress ObjectDector.tar.bz2
+You can copy ObjectDector many times to compute the results for yolo simultaneously.
+E.g., ObjectDector2, ObjectDector3,...

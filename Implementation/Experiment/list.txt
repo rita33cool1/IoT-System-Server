@@ -1,0 +1,8 @@
+NAME       READY     STATUS             RESTARTS   AGE
+audio2-2   0/1       CrashLoopBackOff   4          6m
+audio4-4   0/1       CrashLoopBackOff   4          6m
+audio5-5   0/1       CrashLoopBackOff   4          6m
+yolo2-2    1/1       Running            0          5m
+yolo3-3    1/1       Running            0          5m
+yolo4-4    1/1       Running            0          5m
+yolo5-5    1/1       Running            0          5m

@@ -1,0 +1,150 @@
++++++++++++ DP + RAA + LRU ++++++++++
+No resources found
+kubect delete all pods
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py DP_RAA_LRU_4_0524_0044
+
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+Restart PubImage
+
+Stop docker engine
+
+No screen session found.
+
+Kill docker screen
+
+Restart docker engine
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+Remove docker existed containers
+
+Pull audio over
+
+Pull yolo over
+
+Delete audio over
+
+Delete audio over
+
+python3 delete_all_images.py DP_RAA_LRU_4
+python qos_measurement_yolo_result.py
+python qos_measurement_yolo_image.py
+python qos_measurement_audio.py
+poisson run finish
+8734bc95dfc2
+c2db7a4ce58c
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  docker rm
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== minion delete images ==========
+
+
+python3 YC/iscc19/delete_all_images.py END
+
+delete images_replce.log finish
+
+Stop and Kill previous screenshot
+
+It's END
+
+pod "audio1-edge-18" deleted
+pod "audio11-edge-22" deleted
+pod "audio12-21" deleted
+pod "audio3-22" deleted
+pod "audio4-20" deleted
+pod "audio5-edge-19" deleted
+pod "audio6-21" deleted
+pod "audio7-23" deleted
+pod "audio8-19" deleted
+pod "yolo1-18" deleted
+pod "yolo1-21" deleted
+pod "yolo10-18" deleted
+pod "yolo10-20" deleted
+pod "yolo11-16" deleted
+pod "yolo11-23" deleted
+pod "yolo11-24" deleted
+pod "yolo12-16" deleted
+pod "yolo12-24" deleted
+pod "yolo2-22" deleted
+pod "yolo2-24" deleted
+pod "yolo3-23" deleted
+pod "yolo5-22" deleted
+pod "yolo6-20" deleted
+pod "yolo7-22" deleted
+pod "yolo8-21" deleted
+pod "yolo8-24" deleted
+========== ssh ==========
+
+
+minion@minion-nuc-cloud:~$ 
+========== minion delete containers ==========
+
+
+docker ps -a | grep Exit | cut -d " " -f 1 | xargs  doocker rm
+
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...] [flags]
+
+Remove one or more containers
+
+========== cloud delete containers ==========
+
+========== minion delete images ==========
+
+python3 YC/iscc19/delete_all_images.py END
+
+
+delete images_replce.log finish
+
+No screen session found.
+
+Stop and Kill previous screenshot
+
+It's END
+

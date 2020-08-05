@@ -1,0 +1,1246 @@
+pod/audio9-0 created
+pod/yolo10-0 created
+pod/audio5-0 created
+pod/yolo1-0 created
+No resources found.
+pod "yolo1-0" deleted
+pod "yolo10-0" deleted
+pod/audio5-1 created
+pod/audio6-1 created
+pod/audio3-1 created
+No resources found.
+pod/audio7-2 created
+pod/yolo2-2 created
+pod/audio12-2 created
+No resources found.
+pod/audio3-3 created
+pod/yolo7-3 created
+pod/yolo3-3 created
+No resources found.
+pod/yolo12-4 created
+pod/audio10-4 created
+pod/audio5-4 created
+pod "audio9-0" deleted
+pod "audio3-1" deleted
+No resources found.
+pod/yolo10-5 created
+pod/audio6-5 created
+pod "audio9-0" deleted
+No resources found.
+No resources found.
+pod "audio5-0" deleted
+pod "audio6-5" deleted
+pod/yolo5-6 created
+pod/audio8-6 created
+pod/audio7-6 created
+pod/audio2-6 created
+No resources found.
+pod "audio6-5" deleted
+pod "yolo12-4" deleted
+pod "yolo2-2" deleted
+No resources found.
+pod/audio6-8 created
+pod/yolo5-8 created
+pod/audio7-8 created
+pod/audio11-8 created
+pod "yolo2-2" deleted
+pod "yolo12-4" deleted
+pod "audio8-6" deleted
+pod "audio7-2" deleted
+pod "audio3-3" deleted
+pod "audio7-6" deleted
+pod "audio7-2" deleted
+pod "audio3-3" deleted
+pod "audio7-6" deleted
+pod "audio8-6" deleted
+pod/audio8-9 created
+pod/yolo5-9 created
+pod/audio7-9 created
+time: 0
+Init deployed Analytic: audio9-0
+Init deployed Analytic: yolo10-0
+Init deployed Analytic: audio5-0
+Init deployed Analytic: yolo1-0
+
+minion@minion-nuc-cloud:~$ 
+[Departure] audio5-0:1/6
+[Departure] yolo10-0:1/1
+[Departure] yolo1-0:1/1
+[Departure] audio9-0:1/4
+used_storage:  0 used bandwidth:  0
+departure []
+all_departures []
+Pods in cloud:  ['NAME', 'audio5-0', 'audio9-0', 'yolo1-0', 'yolo10-0']
+Pods in edge:  []
+The passed time:  60.03067874908447
+The time of this iteration: 60.03067874908447
+time: 1
+[Departure] audio5-0:2/6
+init delete pods yolo10-0
+init delete pods yolo1-0
+[Departure] audio9-0:2/4
+used_storage:  0 used bandwidth:  0
+departure [['yolo10-0', 1, 1], ['yolo1-0', 1, 1]]
+all_departures ['yolo10-0', 'yolo1-0']
+Init deployed Analytic: audio6-1
+Init deployed Analytic: audio5-1
+Init deployed Analytic: audio3-1
+Pods in cloud:  ['NAME', 'audio3-1', 'audio5-0', 'audio5-1', 'audio6-1', 'audio9-0', 'yolo1-0', 'yolo10-0']
+Pods in edge:  []
+The passed time:  120.07877683639526
+The time of this iteration: 60.04809808731079
+time: 2
+Init deployed Analytic: audio7-2
+[Departure] audio5-0:3/6
+[Departure] audio9-0:3/4
+[Departure] audio5-1:1/9
+[Departure] audio3-1:1/2
+[Departure] audio6-1:1/8
+[Departure] audio12-2:1/10
+[Departure] audio7-2:1/6
+[Departure] yolo2-2:1/5
+Init deployed Analytic: audio12-2
+Init deployed Analytic: yolo2-2
+used_storage:  0 used bandwidth:  0
+departure []
+all_departures ['yolo10-0', 'yolo1-0']
+Pods in cloud:  ['NAME', 'audio12-2', 'audio3-1', 'audio5-0', 'audio5-1', 'audio6-1', 'audio7-2', 'audio9-0', 'yolo2-2']
+Pods in edge:  []
+The passed time:  180.13068985939026
+The time of this iteration: 60.051913022994995
+time: 3
+[Departure] audio5-0:4/6
+[Departure] audio9-0:4/4
+[Departure] audio5-1:2/9
+[Departure] audio3-1:2/2
+[Departure] audio6-1:2/8
+[Departure] audio12-2:2/10
+[Departure] audio7-2:2/6
+[Departure] yolo2-2:2/5
+used_storage:  0 used bandwidth:  0
+departure []
+all_departures ['yolo10-0', 'yolo1-0']
+Pods in cloud:  ['NAME', 'audio12-2', 'audio3-1', 'audio5-0', 'audio5-1', 'audio6-1', 'audio7-2', 'audio9-0', 'yolo2-2']
+Pods in edge:  []
+Init deployed Analytic: audio3-3
+Init deployed Analytic: yolo7-3
+Init deployed Analytic: yolo3-3
+The passed time:  240.16431641578674
+The time of this iteration: 60.033626556396484
+time: 4
+Init deployed Analytic: audio10-4
+Init deployed Analytic: yolo12-4
+Init deployed Analytic: audio5-4
+[Departure] audio5-0:5/6
+init delete pods audio9-0
+[Departure] audio5-1:3/9
+init delete pods audio3-1
+[Departure] audio6-1:3/8
+[Departure] audio12-2:3/10
+[Departure] audio7-2:3/6
+[Departure] yolo2-2:3/5
+[Departure] audio3-3:1/4
+[Departure] yolo3-3:1/8
+[Departure] yolo7-3:1/8
+[Departure] yolo12-4:1/3
+[Departure] audio5-4:1/6
+[Departure] audio10-4:1/6
+used_storage:  0 used bandwidth:  0
+departure [['audio9-0', 4, 4], ['audio3-1', 2, 2]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1']
+Pods in cloud:  ['NAME', 'audio10-4', 'audio12-2', 'audio3-1', 'audio3-3', 'audio5-0', 'audio5-1', 'audio5-4', 'audio6-1', 'audio7-2', 'audio9-0', 'yolo12-4', 'yolo2-2', 'yolo3-3', 'yolo7-3']
+Pods in edge:  []
+The passed time:  300.18032240867615
+The time of this iteration: 60.016005992889404
+time: 5
+Init deployed Analytic: audio6-5
+Init deployed Analytic: yolo10-5
+Delete stuck app: audio9-0
+[Departure] audio5-0:6/6
+[Departure] audio5-1:4/9
+[Departure] audio6-1:4/8
+[Departure] audio12-2:4/10
+[Departure] audio7-2:4/6
+[Departure] yolo2-2:4/5
+[Departure] audio3-3:2/4
+[Departure] yolo3-3:2/8
+[Departure] yolo7-3:2/8
+[Departure] yolo12-4:2/3
+[Departure] audio5-4:2/6
+[Departure] audio10-4:2/6
+[Departure] yolo10-5:1/5
+[Departure] audio6-5:1/1
+used_storage:  0 used bandwidth:  0
+departure []
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0']
+write terminal.input False
+Pods in cloud:  ['NAME', 'audio10-4', 'audio12-2', 'audio3-3', 'audio5-0', 'audio5-1', 'audio5-4', 'audio6-1', 'audio6-5', 'audio7-2', 'yolo10-5', 'yolo12-4', 'yolo2-2', 'yolo3-3', 'yolo7-3']
+Pods in edge:  []
+The passed time:  360.22681307792664
+The time of this iteration: 60.04649066925049
+time: 6
+init delete pods audio5-0
+[Departure] audio5-1:5/9
+[Departure] audio6-1:5/8
+[Departure] audio12-2:5/10
+[Departure] audio7-2:5/6
+[Departure] yolo2-2:5/5
+[Departure] audio3-3:3/4
+[Departure] yolo3-3:3/8
+[Departure] yolo7-3:3/8
+[Departure] yolo12-4:3/3
+[Departure] audio5-4:3/6
+[Departure] audio10-4:3/6
+[Departure] yolo10-5:2/5
+init delete pods audio6-5
+used_storage:  0 used bandwidth:  0
+departure [['audio5-0', 6, 6], ['audio6-5', 1, 1]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5']
+Pods in cloud:  ['NAME', 'audio10-4', 'audio12-2', 'audio3-3', 'audio5-0', 'audio5-1', 'audio5-4', 'audio6-1', 'audio6-5', 'audio7-2', 'yolo10-5', 'yolo12-4', 'yolo2-2', 'yolo3-3', 'yolo7-3']
+Init deployed Analytic: yolo5-6
+Init deployed Analytic: audio8-6
+Init deployed Analytic: audio7-6
+Init deployed Analytic: audio2-6
+Pods in edge:  []
+The passed time:  420.2787787914276
+The time of this iteration: 60.05196571350098
+time: 7
+Delete stuck app: audio6-5
+[Departure] audio5-1:6/9
+[Departure] audio6-1:6/8
+[Departure] audio12-2:6/10
+[Departure] audio7-2:6/6
+init delete pods yolo2-2
+[Departure] audio3-3:4/4
+[Departure] yolo3-3:4/8
+[Departure] yolo7-3:4/8
+init delete pods yolo12-4
+[Departure] audio5-4:4/6
+[Departure] audio10-4:4/6
+[Departure] yolo10-5:3/5
+[Departure] yolo5-6:1/4
+[Departure] audio8-6:1/1
+[Departure] audio7-6:1/1
+[Departure] audio2-6:1/9
+used_storage:  0 used bandwidth:  0
+departure [['yolo2-2', 5, 5], ['yolo12-4', 3, 3]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4']
+Pods in cloud:  ['NAME', 'audio10-4', 'audio12-2', 'audio2-6', 'audio3-3', 'audio5-1', 'audio5-4', 'audio6-1', 'audio7-2', 'audio7-6', 'audio8-6', 'yolo10-5', 'yolo12-4', 'yolo2-2', 'yolo3-3', 'yolo5-6', 'yolo7-3']
+Pods in edge:  []
+The passed time:  480.3131387233734
+The time of this iteration: 60.0343599319458
+time: 8
+Init deployed Analytic: audio6-8
+Delete stuck app: yolo2-2
+Delete stuck app: yolo12-4
+Init deployed Analytic: yolo5-8
+Init deployed Analytic: audio7-8
+Init deployed Analytic: audio11-8
+[Departure] audio5-1:7/9
+[Departure] audio6-1:7/8
+[Departure] audio12-2:7/10
+init delete pods audio7-2
+init delete pods audio3-3
+[Departure] yolo3-3:5/8
+[Departure] yolo7-3:5/8
+[Departure] audio5-4:5/6
+[Departure] audio10-4:5/6
+[Departure] yolo10-5:4/5
+[Departure] yolo5-6:2/4
+init delete pods audio8-6
+init delete pods audio7-6
+[Departure] audio2-6:2/9
+[Departure] audio6-8:1/2
+[Departure] audio11-8:1/8
+[Departure] yolo5-8:1/10
+[Departure] audio7-8:1/7
+used_storage:  1.94 used bandwidth:  0
+departure [['audio7-2', 6, 6], ['audio3-3', 4, 4], ['audio8-6', 1, 1], ['audio7-6', 1, 1]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6']
+Pods in cloud:  ['NAME', 'audio10-4', 'audio11-8', 'audio12-2', 'audio2-6', 'audio3-3', 'audio5-1', 'audio5-4', 'audio6-1', 'audio6-8', 'audio7-2', 'audio7-6', 'audio7-8', 'audio8-6', 'yolo10-5', 'yolo12-4', 'yolo2-2', 'yolo3-3', 'yolo5-6', 'yolo5-8', 'yolo7-3']
+Pods in edge:  ['audio5-edge-1']
+The passed time:  540.352358341217
+The time of this iteration: 60.03921961784363
+time: 9
+Delete stuck app: audio7-2
+Delete stuck app: audio3-3
+Delete stuck app: audio8-6
+Delete stuck app: audio7-6
+[Departure] audio5-1:8/9
+[Departure] audio6-1:8/8
+[Departure] audio12-2:8/10
+[Departure] yolo3-3:6/8
+[Departure] yolo7-3:6/8
+[Departure] audio5-4:6/6
+[Departure] audio10-4:6/6
+[Departure] yolo10-5:5/5
+[Departure] yolo5-6:3/4
+[Departure] audio2-6:3/9
+[Departure] audio6-8:2/2
+[Departure] audio11-8:2/8
+[Departure] yolo5-8:2/10
+[Departure] audio7-8:2/7
+Init deployed Analytic: audio7-9
+Init deployed Analytic: audio8-9
+Init deployed Analytic: yolo5-9
+used_storage:  1.94 used bandwidth:  0
+departure []
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6']pod/audio6-10 created
+pod/audio5-10 created
+pod/yolo3-10 created
+Error from server (NotFound): pods "audio6-5" not found
+Error from server (NotFound): pods "audio7-2" not found
+pod "audio6-8" deleted
+pod "audio5-4" deleted
+pod "yolo10-5" deleted
+pod "audio6-edge-1" deleted
+pod "audio10-4" deleted
+pod "audio5-edge-1" deleted
+pod "audio6-10" deleted
+pod "yolo5-6" deleted
+pod "audio8-9" deleted
+pod "audio7-9" deleted
+pod/yolo4-11 created
+pod/audio2-11 created
+pod/yolo1-11 created
+pod "audio8-9" deleted
+pod "audio7-9" deleted
+pod "audio6-10" deleted
+pod/yolo12-12 created
+pod/yolo11-12 created
+pod/audio4-12 created
+pod "yolo3-3" deleted
+pod "audio12-2" deleted
+pod "yolo7-3" deleted
+pod "yolo3-3" deleted
+pod/audio4-13 created
+pod/audio6-13 created
+pod/yolo10-13 created
+pod "yolo3-10" deleted
+pod "audio4-12" deleted
+pod "audio5-edge-10" deleted
+
+Pods in cloud:  ['NAME', 'audio10-4', 'audio11-8', 'audio12-2', 'audio2-6', 'audio3-3', 'audio5-1', 'audio5-4', 'audio6-1', 'audio6-8', 'audio7-2', 'audio7-6', 'audio7-8', 'audio7-9', 'audio8-6', 'audio8-9', 'yolo10-5', 'yolo3-3', 'yolo5-6', 'yolo5-8', 'yolo5-9', 'yolo7-3']
+Pods in edge:  ['audio5-edge-1']
+The passed time:  600.3929934501648
+The time of this iteration: 60.040635108947754
+time: 10
+Init deployed Analytic: audio6-10
+Init deployed Analytic: audio5-10
+Init deployed Analytic: yolo3-10
+[Departure] audio5-edge-1:9/9
+init delete pods audio6-edge-1
+[Departure] audio12-2:9/10
+[Departure] yolo3-3:7/8
+[Departure] yolo7-3:7/8
+init delete pods audio5-4
+init delete pods audio10-4
+init delete pods yolo10-5
+[Departure] yolo5-6:4/4
+[Departure] audio2-6:4/9
+init delete pods audio6-8
+[Departure] audio11-8:3/8
+[Departure] yolo5-8:3/10
+[Departure] audio7-8:3/7
+[Departure] audio7-9:1/1
+[Departure] yolo5-9:1/9
+[Departure] audio8-9:1/1
+[Departure] audio5-10:1/4
+[Departure] audio6-10:1/1
+[Departure] yolo3-10:1/3
+used_storage:  4.3 used bandwidth:  0
+departure [['audio6-edge-1', 8, 8], ['audio5-4', 6, 6], ['audio10-4', 6, 6], ['yolo10-5', 5, 5], ['audio6-8', 2, 2]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8']
+IDA_thread is Alive
+Sleep replace time: 0
+images []
+exist_images []
+expect_analytics ['audio5', 'audio5', 'audio6', 'audio6', 'audio7']
+Extract image: audio5
+Extraction time: 78 s
+Extract image: audio6
+Extraction time: 82 s
+Extract image: audio7
+Extraction time: 82 s
+extract_images ['audio5', 'audio6', 'audio7']
+write terminal.input True
+write terminal.input False
+Pods in cloud:  ['NAME', 'audio11-8', 'audio12-2', 'audio2-6', 'audio5-10', 'audio6-10', 'audio7-8', 'audio7-9', 'audio8-9', 'yolo3-10', 'yolo3-3', 'yolo5-6', 'yolo5-8', 'yolo5-9', 'yolo7-3']
+Pods in edge:  ['audio5-edge-1']
+The passed time:  888.0743792057037
+The time of this iteration: 287.68138575553894
+time: 11
+init delete pods audio5-edge-1
+[Departure] audio12-2:10/10
+[Departure] yolo3-3:8/8
+[Departure] yolo7-3:8/8
+init delete pods yolo5-6
+[Departure] audio2-6:5/9
+[Departure] audio11-8:4/8
+[Departure] yolo5-8:4/10
+[Departure] audio7-8:4/7
+init delete pods audio7-9
+[Departure] yolo5-9:2/9
+init delete pods audio8-9
+[Departure] audio5-10:2/4
+init delete pods audio6-10
+[Departure] yolo3-10:2/3
+used_storage:  1.94 used bandwidth:  0
+departure [['audio5-edge-1', 9, 9], ['yolo5-6', 4, 4], ['audio7-9', 1, 1], ['audio8-9', 1, 1], ['audio6-10', 1, 1]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10']
+Init deployed Analytic: yolo4-11
+Init deployed Analytic: yolo1-11
+Init deployed Analytic: audio2-11
+Pods in cloud:  ['NAME', 'audio11-8', 'audio12-2', 'audio2-11', 'audio2-6', 'audio5-10', 'audio6-10', 'audio7-8', 'audio7-9', 'audio8-9', 'yolo1-11', 'yolo3-10', 'yolo3-3', 'yolo4-11', 'yolo5-6', 'yolo5-8', 'yolo5-9', 'yolo7-3']
+Pods in edge:  ['audio5-edge-1']
+The passed time:  948.1307151317596
+The time of this iteration: 60.05633592605591
+time: 12
+Delete stuck app: yolo5-6
+Delete stuck app: audio7-9
+Delete stuck app: audio8-9
+Delete stuck app: audio6-10
+Init deployed Analytic: yolo12-12
+init delete pods audio12-2
+init delete pods yolo3-3
+init delete pods yolo7-3
+[Departure] audio2-6:6/9
+[Departure] audio11-8:5/8
+[Departure] yolo5-8:5/10
+[Departure] audio7-edge-8:5/7
+[Departure] yolo5-9:3/9
+[Departure] audio5-10:3/4
+[Departure] yolo3-10:3/3
+[Departure] audio2-11:1/9
+[Departure] yolo4-11:1/3
+[Departure] yolo1-11:1/5
+Init deployed Analytic: yolo11-12
+Init deployed Analytic: audio4-12
+used_storage:  4.96 used bandwidth:  0
+departure [['audio12-2', 10, 10], ['yolo3-3', 8, 8], ['yolo7-3', 8, 8]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3']
+Pods in cloud:  ['NAME', 'audio11-8', 'audio12-2', 'audio2-11', 'audio2-6', 'audio4-12', 'audio5-10', 'audio6-10', 'audio7-9', 'audio8-9', 'yolo1-11', 'yolo11-12', 'yolo12-12', 'yolo3-10', 'yolo3-3', 'yolo4-11', 'yolo5-8', 'yolo5-9', 'yolo7-3']
+Pods in edge:  ['audio5-edge-10', 'audio7-edge-8']
+The passed time:  1008.1830191612244
+The time of this iteration: 60.05230402946472
+time: 13
+Delete stuck app: yolo3-3
+[Departure] audio2-6:7/9
+[Departure] audio11-8:6/8
+[Departure] yolo5-8:6/10
+[Departure] audio7-edge-8:6/7
+[Departure] yolo5-9:4/9
+[Departure] audio5-edge-10:4/4
+init delete pods yolo3-10
+[Departure] audio2-11:2/9
+[Departure] yolo4-11:2/3
+[Departure] yolo1-11:2/5
+[Departure] yolo11-12:1/2
+[Departure] yolo12-12:1/2
+[Departure] audio4-12:1/1
+Init deployed Analytic: audio4-13
+Init deployed Analytic: yolo10-13
+Init deployed Analytic: audio6-13
+used_storage:  7.109999999999999 used bandwidth:  0
+departure [['yolo3-10', 3, 3]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10']
+Pods in cloud:  ['NAME', 'audio11-8', 'audio2-11', 'audio2-6', 'audio4-12', 'audio4-13', 'audio6-13', 'yolo1-11', 'yolo10-13', 'yolo11-12', 'yolo12-12', 'yolo3-10', 'yolo4-11', 'yolo5-8', 'yolo5-9']
+Pods in edge:  ['audio5-edge-10', 'audio7-edge-8', 'yolo5-edge-8']
+The passed time:  1068.2260782718658
+The time of this iteration: 60.04305911064148
+time: 14
+[Departure] audio2-6:8/9
+[Departure] audio11-8:7/8
+[Departure] yolo5-edge-8:7/10
+[Departure] audio7-edge-8:7/7
+[Departure] yolo5-9:5/9
+init delete pods audio5-edge-10
+[Departure] audio2-11:3/9
+[Departure] yolo4-11:3/3
+[Departure] yolo1-11:3/5
+[Departure] yolo11-12:2/2
+[Departure] yolo12-12:2/2
+init delete pods audio4-12
+[Departure] audio6-13:1/8
+[Departure] audio4-13:1/1
+[Departure] yolo10-13:1/8
+used_storage:  7.109999999999999 used bandwidth:  0
+departure [['audio5-edge-10', 4, 4], ['audio4-12', 1, 1]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12']
+Pods in cloud:  ['NAME', 'audio11-8', 'audio2-11', 'audio2-6', 'audio4-12', 'audio4-13', 'audio6-13', 'yolo1-11', 'yolo10-13', 'yolo11-12', 'yolo12-12', 'yolo4-11', 'yolo5-9']
+Pods in edge:  ['audio5-edge-10', 'audio7-edge-8', 'yolo5-edge-8']
+The passed time:  1128.2769889831543
+The time of this iteration: 60.05091071128845
+time: 15
+[Departure] audio2-6:9/9
+[Departure] audio11-8:8/8
+[Departure] yolo5-edge-8:8/10
+init delete pods audio7-edge-8
+[Departure] yolo5-9:6/9
+[Departure] audio2-11:4/9
+init delete pods yolo4-11
+[Departure] yolo1-11:4/5
+init delete pods yolo11-12
+init delete pods yolo12-12
+[Departure] audio6-13:2/8
+init delete pods audio4-13
+[Departure] yolo10-13:2/8
+used_storage:  pod "audio4-13" deleted
+pod "yolo12-12" deleted
+pod/yolo5-15 created
+pod "yolo11-12" deleted
+pod/yolo7-15 created
+pod/yolo4-15 created
+pod/yolo1-15 created
+pod "yolo4-11" deleted
+pod "audio7-edge-8" deleted
+pod/audio3-15 created
+pod/audio12-15 created
+pod/yolo3-15 created
+pod/yolo8-15 created
+pod "yolo11-12" deleted
+pod "yolo12-12" deleted
+pod "audio7-edge-8" deleted
+pod "audio4-13" deleted
+pod/audio11-16 created
+pod/audio2-16 created
+pod "audio11-8" deleted
+pod "audio2-6" deleted
+pod/yolo11-17 created
+pod "yolo1-11" deleted
+pod "yolo1-11" deleted
+pod "yolo5-edge-8" deleted
+pod "yolo5-15" deleted
+pod/audio1-18 created
+pod/yolo9-18 created
+pod/yolo11-18 created
+pod/yolo8-19 created
+pod/audio7-19 created
+pod/yolo12-19 created
+pod/audio6-19 created
+pod/yolo10-19 created
+pod/audio12-19 created
+pod/yolo4-19 created
+pod "yolo5-15" deleted
+pod "yolo5-9" deleted
+5.17 used bandwidth:  0
+departure [['audio7-edge-8', 7, 7], ['yolo4-11', 3, 3], ['yolo11-12', 2, 2], ['yolo12-12', 2, 2], ['audio4-13', 1, 1]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13']
+Init deployed Analytic: yolo4-15
+Init deployed Analytic: yolo1-15
+Init deployed Analytic: yolo7-15
+Init deployed Analytic: yolo5-15
+Init deployed Analytic: audio3-15
+Init deployed Analytic: audio12-15
+write terminal.input False
+Init deployed Analytic: yolo3-15
+Init deployed Analytic: yolo8-15
+Pods in cloud:  ['NAME', 'audio11-8', 'audio12-15', 'audio2-11', 'audio2-6', 'audio3-15', 'audio4-13', 'audio6-13', 'yolo1-11', 'yolo1-15', 'yolo10-13', 'yolo11-12', 'yolo12-12', 'yolo3-15', 'yolo4-11', 'yolo4-15', 'yolo5-15', 'yolo5-9', 'yolo7-15', 'yolo8-15']
+Pods in edge:  ['audio7-edge-8', 'yolo5-edge-8']
+The passed time:  1188.3290042877197
+The time of this iteration: 60.05201530456543
+time: 16
+Delete stuck app: audio7-edge-8
+Delete stuck app: yolo11-12
+Delete stuck app: yolo12-12
+Delete stuck app: audio4-13
+init delete pods audio2-6
+init delete pods audio11-8
+[Departure] yolo5-edge-8:9/10
+[Departure] yolo5-9:7/9
+[Departure] audio2-11:5/9
+[Departure] yolo1-11:5/5
+[Departure] audio6-13:3/8
+[Departure] yolo10-13:3/8
+[Departure] audio3-15:1/7
+[Departure] yolo1-15:1/4
+[Departure] yolo7-15:1/4
+[Departure] yolo5-15:1/2
+[Departure] yolo4-15:1/9
+[Departure] yolo8-15:1/6
+[Departure] audio12-15:1/4
+[Departure] yolo3-15:1/6
+Init deployed Analytic: audio2-16
+Init deployed Analytic: audio11-16
+used_storage:  5.17 used bandwidth:  0
+departure [['audio2-6', 9, 9], ['audio11-8', 8, 8]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8']
+Pods in cloud:  ['NAME', 'audio11-16', 'audio11-8', 'audio12-15', 'audio2-11', 'audio2-16', 'audio2-6', 'audio3-15', 'audio4-13', 'audio6-13', 'yolo1-11', 'yolo1-15', 'yolo10-13', 'yolo11-12', 'yolo3-15', 'yolo4-15', 'yolo5-15', 'yolo5-9', 'yolo7-15', 'yolo8-15']
+Pods in edge:  ['audio7-edge-8', 'yolo5-edge-8']
+The passed time:  1248.3769993782043
+The time of this iteration: 60.04799509048462
+time: 17
+Init deployed Analytic: yolo11-17
+[Departure] yolo5-edge-8:10/10
+[Departure] yolo5-9:8/9
+[Departure] audio2-11:6/9
+init delete pods yolo1-11
+[Departure] audio6-13:4/8
+[Departure] yolo10-13:4/8
+[Departure] audio3-15:2/7
+[Departure] yolo1-15:2/4
+[Departure] yolo7-15:2/4
+[Departure] yolo5-15:2/2
+[Departure] yolo4-15:2/9
+[Departure] yolo8-15:2/6
+[Departure] audio12-15:2/4
+[Departure] yolo3-15:2/6
+[Departure] audio2-16:1/4
+[Departure] audio11-16:1/9
+[Departure] yolo11-17:1/5
+used_storage:  2.15 used bandwidth:  0
+departure [['yolo1-11', 5, 5]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11']
+Pods in cloud:  ['NAME', 'audio11-16', 'audio12-15', 'audio2-11', 'audio2-16', 'audio3-15', 'audio6-13', 'yolo1-11', 'yolo1-15', 'yolo10-13', 'yolo11-17', 'yolo3-15', 'yolo4-15', 'yolo5-15', 'yolo5-9', 'yolo7-15', 'yolo8-15']
+Pods in edge:  ['yolo5-edge-8']
+The passed time:  1308.4000163078308
+The time of this iteration: 60.023016929626465
+time: 18
+Delete stuck app: yolo1-11
+init delete pods yolo5-edge-8
+[Departure] yolo5-9:9/9
+[Departure] audio2-11:7/9
+[Departure] audio6-13:5/8
+[Departure] yolo10-13:5/8
+[Departure] audio3-15:3/7
+[Departure] yolo1-15:3/4
+[Departure] yolo7-15:3/4
+init delete pods yolo5-15
+[Departure] yolo4-15:3/9
+[Departure] yolo8-15:3/6
+[Departure] audio12-15:3/4
+[Departure] yolo3-15:3/6
+[Departure] audio2-16:2/4
+[Departure] audio11-16:2/9
+[Departure] yolo11-17:2/5
+used_storage:  2.15 used bandwidth:  0
+departure [['yolo5-edge-8', 10, 10], ['yolo5-15', 2, 2]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15']
+Pods in cloud:  ['NAME', 'audio11-16', 'audio12-15', 'audio2-11', 'audio2-16', 'audio3-15', 'audio6-13', 'yolo1-11', 'yolo1-15', 'yolo10-13', 'yolo11-17', 'yolo3-15', 'yolo4-15', 'yolo5-15', 'yolo5-9', 'yolo7-15', 'yolo8-15']
+Pods in edge:  ['yolo5-edge-8']
+Init deployed Analytic: audio1-18
+Init deployed Analytic: yolo9-18
+Init deployed Analytic: yolo11-18
+The passed time:  1368.4432609081268
+The time of this iteration: 60.04324460029602
+time: 19
+Delete stuck app: yolo5-15
+Init deployed Analytic: audio7-19
+Init deployed Analytic: yolo10-19
+Init deployed Analytic: audio6-19
+Init deployed Analytic: yolo4-19
+Init deployed Analytic: audio12-19
+Init deployed Analytic: yolo12-19
+Init deployed Analytic: yolo8-19
+init delete pods yolo5-9
+[Departure] audio2-11:8/9
+[Departure] yolo10-13:6/8
+[Departure] audio3-15:4/7
+[Departure] yolo1-15:4/4
+[Departure] yolo7-15:4/4
+[Departure] yolo4-15:4/9
+[Departure] yolo8-15:4/6
+[Departure] audio12-15:4/4
+[Departure] yolo3-15:4/6
+[Departure] audio2-16:3/4
+[Departure] audio11-16:3/9
+[Departure] yolo11-17:3/5
+[Departure] audio1-18:1/1
+[Departure] yolo9-18:1/3
+[Departure] yolo11-18:1/9
+[Departure] yolo8-19:1/6
+[Departure] yolo12-19:1/10
+[Departure] audio7-19:1/10
+[Departure] audio6-19:1/6
+[Departure] yolo4-19:1/9
+[Departure] audio12-19:1/2
+[Departure] yolo10-19:1/8
+used_storage:  0 used bandwidth:  0
+departure [['yolo5-9', 9, 9]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9']
+Pods in cloud:  ['NAME', 'audio1-18', 'audio11-16', 'audio12-15', 'audio12-19', 'audio2-11', 'audio2-16', 'audio3-15', 'audio6-19', 'audio7-19', 'yolo1-15', 'yolo10-13', 'yolo10-19', 'yolo11-17', 'yolo11-18', 'yolo12-19', 'yolo3-15', 'yolo4-15', 'yolo4-19', 'yolo5-9', 'yolo7-15', 'yolo8-15', 'yolo8-19', 'yolo9-18']No resources found.
+Error from server (NotFound): pods "yolo5-15" not found
+pod/audio2-20 created
+pod "yolo5-9" deleted
+pod "audio1-18" deleted
+pod "yolo7-15" deleted
+pod "yolo1-15" deleted
+pod "audio12-15" deleted
+pod/audio2-21 created
+pod/audio6-21 created
+pod "audio2-16" deleted
+pod "audio2-11" deleted
+pod "audio12-19" deleted
+pod/audio10-22 created
+pod/audio1-22 created
+pod/audio4-22 created
+pod/yolo9-22 created
+pod/audio11-22 created
+pod/audio12-22 created
+pod/yolo3-22 created
+pod/yolo2-22 created
+pod "audio2-16" deleted
+pod "audio2-11" deleted
+pod "yolo11-17" deleted
+pod "yolo9-18" deleted
+pod "yolo3-15" deleted
+pod "yolo8-15" deleted
+pod "yolo10-13" deleted
+pod "yolo3-15" deleted
+pod "yolo8-15" deleted
+pod "yolo10-13" deleted
+pod/yolo10-23 created
+pod/yolo1-23 created
+pod/yolo6-23 created
+pod "yolo11-17" deleted
+pod/audio8-23 created
+pod "yolo9-18" deleted
+pod/audio9-23 created
+pod/yolo8-23 created
+
+Pods in edge:  []
+The passed time:  1428.488976240158
+The time of this iteration: 60.04571533203125
+time: 20
+Delete stuck app: yolo5-9
+Init deployed Analytic: audio2-20
+[Departure] audio2-11:9/9
+[Departure] audio6-edge-13:6/8
+[Departure] yolo10-13:7/8
+[Departure] audio3-15:5/7
+init delete pods yolo1-15
+init delete pods yolo7-15
+[Departure] yolo4-15:5/9
+[Departure] yolo8-15:5/6
+init delete pods audio12-15
+[Departure] yolo3-15:5/6
+[Departure] audio2-16:4/4
+[Departure] audio11-16:4/9
+[Departure] yolo11-17:4/5
+init delete pods audio1-18
+[Departure] yolo9-18:2/3
+[Departure] yolo11-18:2/9
+[Departure] yolo8-19:2/6
+[Departure] yolo12-19:2/10
+[Departure] audio7-19:2/10
+[Departure] audio6-19:2/6
+[Departure] yolo4-19:2/9
+[Departure] audio12-19:2/2
+[Departure] yolo10-19:2/8
+[Departure] audio2-20:1/7
+used_storage:  2.36 used bandwidth:  0
+departure [['yolo1-15', 4, 4], ['yolo7-15', 4, 4], ['audio12-15', 4, 4], ['audio1-18', 1, 1]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18']
+IDA_thread is Alive
+Sleep replace time: 99
+images ['192.168.1.100:5000/iscc19:s2-audio-7', '192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-audio-5', '192.168.1.100:5000/iscc19:s2-yolo-5']
+exist_images ['audio7', 'audio6', 'audio5', 'yolo5']
+expect_analytics ['audio6', 'yolo5', 'yolo5']
+extract_images []
+write terminal.input True
+write terminal.input False
+Pods in cloud:  ['NAME', 'audio11-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio2-20', 'audio3-15', 'audio6-19', 'audio7-19', 'yolo10-13', 'yolo10-19', 'yolo11-17', 'yolo11-18', 'yolo12-19', 'yolo3-15', 'yolo4-15', 'yolo4-19', 'yolo8-15', 'yolo8-19', 'yolo9-18']
+Pods in edge:  ['audio6-edge-13']
+The passed time:  1551.3113520145416
+The time of this iteration: 122.82237577438354
+time: 21
+init delete pods audio2-11
+[Departure] audio6-edge-13:7/8
+[Departure] yolo10-13:8/8
+[Departure] audio3-15:6/7
+[Departure] yolo4-15:6/9
+[Departure] yolo8-15:6/6
+[Departure] yolo3-15:6/6
+init delete pods audio2-16
+[Departure] audio11-16:5/9
+[Departure] yolo11-17:5/5
+[Departure] yolo9-18:3/3
+[Departure] yolo11-18:3/9
+[Departure] yolo8-19:3/6
+[Departure] yolo12-19:3/10
+[Departure] audio7-19:3/10
+[Departure] audio6-19:3/6
+[Departure] yolo4-19:3/9
+init delete pods audio12-19
+[Departure] yolo10-19:3/8
+[Departure] audio2-20:2/7
+Init deployed Analytic: audio2-21
+Init deployed Analytic: audio6-21
+used_storage:  2.36 used bandwidth:  0
+departure [['audio2-11', 9, 9], ['audio2-16', 4, 4], ['audio12-19', 2, 2]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19']
+Pods in cloud:  ['NAME', 'audio11-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio2-20', 'audio2-21', 'audio3-15', 'audio6-19', 'audio6-21', 'audio7-19', 'yolo10-13', 'yolo10-19', 'yolo11-17', 'yolo11-18', 'yolo12-19', 'yolo3-15', 'yolo4-15', 'yolo4-19', 'yolo8-15', 'yolo8-19', 'yolo9-18']
+Pods in edge:  ['audio6-edge-13']
+The passed time:  1611.3569703102112
+The time of this iteration: 60.045618295669556
+time: 22
+Init deployed Analytic: audio1-22
+Init deployed Analytic: audio10-22
+Init deployed Analytic: audio11-22
+Init deployed Analytic: yolo3-22
+Init deployed Analytic: yolo9-22
+Init deployed Analytic: audio4-22
+Init deployed Analytic: audio12-22
+Init deployed Analytic: yolo2-22
+Delete stuck app: audio2-11
+Delete stuck app: audio2-16
+Delete stuck app: audio12-19
+[Departure] audio6-edge-13:8/8
+init delete pods yolo10-13
+[Departure] audio3-15:7/7
+[Departure] yolo4-15:7/9
+init delete pods yolo8-15
+init delete pods yolo3-15
+[Departure] audio11-16:6/9
+init delete pods yolo11-17
+init delete pods yolo9-18
+[Departure] yolo11-18:4/9
+[Departure] yolo8-19:4/6
+[Departure] yolo12-19:4/10
+[Departure] audio7-19:4/10
+[Departure] audio6-19:4/6
+[Departure] yolo4-19:4/9
+[Departure] yolo10-19:4/8
+[Departure] audio2-20:3/7
+[Departure] audio2-21:1/9
+[Departure] audio6-21:1/6
+[Departure] audio12-22:1/2
+[Departure] audio10-22:1/7
+[Departure] yolo3-22:1/5
+[Departure] audio1-22:1/4
+[Departure] yolo2-22:1/10
+[Departure] yolo9-22:1/4
+[Departure] audio4-22:1/3
+[Departure] audio11-22:1/7
+used_storage:  2.36 used bandwidth:  0
+departure [['yolo10-13', 8, 8], ['yolo8-15', 6, 6], ['yolo3-15', 6, 6], ['yolo11-17', 5, 5], ['yolo9-18', 3, 3]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18']
+Pods in cloud:  ['NAME', 'audio1-22', 'audio10-22', 'audio11-16', 'audio11-22', 'audio12-22', 'audio2-11', 'audio2-16', 'audio2-20', 'audio2-21', 'audio3-15', 'audio4-22', 'audio6-19', 'audio6-21', 'audio7-19', 'yolo10-13', 'yolo10-19', 'yolo11-17', 'yolo11-18', 'yolo12-19', 'yolo2-22', 'yolo3-15', 'yolo3-22', 'yolo4-15', 'yolo4-19', 'yolo8-15', 'yolo8-19', 'yolo9-18', 'yolo9-22']
+Pods in edge:  ['audio6-edge-13', 'audio6-edge-19']
+The passed time:  1671.3929767608643
+The time of this iteration: 60.036006450653076
+time: 23
+Delete stuck app: yolo10-13
+Delete stuck app: yolo8-15
+Delete stuck app: yolo3-15
+Delete stuck app: yolo11-17
+Delete stuck app: yolo9-18
+Init deployed Analytic: yolo6-23
+Init deployed Analytic: yolo10-23
+Init deployed Analytic: yolo8-23
+Init deployed Analytic: audio9-23
+Init deployed Analytic: yolo1-23
+init delete pods audio6-edge-13
+init delete pods audio3-15
+Init deployed Analytic: audio8-23
+[Departure] yolo4-15:8/9
+[Departure] audio11-16:7/9
+[Departure] yolo11-18:5/9
+[Departure] yolo8-19:5/6
+[Departure] yolo12-19:5/10
+[Departure] audio7-19:5/10
+[Departure] audio6-19:5/6
+[Departure] yolo4-19:5/9
+[Departure] yolo10-19:5/8
+[Departure] audio2-20:4/7
+[Departure] audio2-21:2/9
+[Departure] audio6-21:2/6
+[Departure] audio12-22:2/2
+[Departure] audio10-22:2/7
+[Departure] yolo3-22:2/5
+[Departure] audio1-22:2/4
+[Departure] yolo2-22:2/10
+[Departure] yolo9-22:2/4
+[Departure] audio4-22:2/3
+[Departure] audio11-22:2/7
+used_storage:  2.36 used bandwidth:  0
+departure [['audio6-edge-13', 8, 8], ['audio3-15', 7, 7]]pod "audio6-edge-13" deleted
+pod "audio3-15" deleted
+pod "yolo10-13" deleted
+pod "yolo11-17" deleted
+pod "yolo9-18" deleted
+pod "audio3-15" deleted
+pod "yolo8-15" deleted
+pod "yolo3-15" deleted
+pod/yolo5-24 created
+pod "audio12-22" deleted
+pod/audio3-24 created
+pod/yolo10-25 created
+pod "yolo9-18" deleted
+pod "audio3-15" deleted
+pod "yolo10-13" deleted
+pod "audio12-22" deleted
+pod "yolo8-15" deleted
+pod "yolo11-17" deleted
+pod "audio6-19" deleted
+pod "yolo4-15" deleted
+pod "audio4-22" deleted
+pod "yolo8-19" deleted
+pod "yolo4-15" deleted
+pod "audio4-22" deleted
+pod/yolo10-26 created
+
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio6-edge-13', 'audio3-15']
+Pods in cloud:  ['NAME', 'audio1-22', 'audio10-22', 'audio11-16', 'audio11-22', 'audio12-22', 'audio2-20', 'audio2-21', 'audio3-15', 'audio4-22', 'audio6-19', 'audio6-21', 'audio7-19', 'audio8-23', 'audio9-23', 'yolo1-23', 'yolo10-13', 'yolo10-19', 'yolo10-23', 'yolo11-17', 'yolo11-18', 'yolo12-19', 'yolo2-22', 'yolo3-15', 'yolo3-22', 'yolo4-15', 'yolo4-19', 'yolo6-23', 'yolo8-15', 'yolo8-19', 'yolo8-23', 'yolo9-18', 'yolo9-22']
+Pods in edge:  ['audio6-edge-13', 'audio6-edge-19']
+The passed time:  1731.4330039024353
+The time of this iteration: 60.040027141571045
+time: 24
+Delete stuck app: yolo10-13
+Delete stuck app: yolo8-15
+Delete stuck app: yolo3-15
+Delete stuck app: yolo11-17
+Delete stuck app: yolo9-18
+Delete stuck app: audio3-15
+[Departure] yolo4-15:9/9
+[Departure] audio11-16:8/9
+[Departure] yolo11-18:6/9
+[Departure] yolo8-19:6/6
+[Departure] yolo12-19:6/10
+[Departure] audio7-19:6/10
+[Departure] audio6-19:6/6
+[Departure] yolo4-19:6/9
+[Departure] yolo10-19:6/8
+[Departure] audio2-20:5/7
+[Departure] audio2-21:3/9
+[Departure] audio6-21:3/6
+init delete pods audio12-22
+[Departure] audio10-22:3/7
+[Departure] yolo3-22:3/5
+[Departure] audio1-22:3/4
+[Departure] yolo2-22:3/10
+[Departure] yolo9-22:3/4
+[Departure] audio4-22:3/3
+[Departure] audio11-22:3/7
+[Departure] yolo10-23:1/3
+[Departure] yolo1-23:1/4
+[Departure] audio9-23:1/6
+[Departure] audio8-23:1/8
+[Departure] yolo6-23:1/7
+[Departure] yolo8-23:1/10
+used_storage:  2.36 used bandwidth:  0
+departure [['audio12-22', 2, 2]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio6-edge-13', 'audio3-15', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22']
+Init deployed Analytic: yolo5-24
+Init deployed Analytic: audio3-24
+Pods in cloud:  ['NAME', 'audio1-22', 'audio10-22', 'audio11-16', 'audio11-22', 'audio12-22', 'audio2-20', 'audio2-21', 'audio3-15', 'audio3-24', 'audio4-22', 'audio6-19', 'audio6-21', 'audio7-19', 'audio8-23', 'audio9-23', 'yolo1-23', 'yolo10-13', 'yolo10-19', 'yolo10-23', 'yolo11-17', 'yolo11-18', 'yolo12-19', 'yolo2-22', 'yolo3-15', 'yolo3-22', 'yolo4-15', 'yolo4-19', 'yolo5-24', 'yolo6-23', 'yolo8-15', 'yolo8-19', 'yolo8-23', 'yolo9-18', 'yolo9-22']
+Pods in edge:  ['audio6-edge-19']
+The passed time:  1791.4689629077911
+The time of this iteration: 60.035959005355835
+time: 25
+Init deployed Analytic: yolo10-25
+Delete stuck app: yolo10-13
+Delete stuck app: yolo8-15
+Delete stuck app: yolo11-17
+Delete stuck app: yolo9-18
+Delete stuck app: audio3-15
+Delete stuck app: audio12-22
+init delete pods yolo4-15
+[Departure] audio11-16:9/9
+[Departure] yolo11-18:7/9
+init delete pods yolo8-19
+[Departure] yolo12-19:7/10
+[Departure] audio7-19:7/10
+init delete pods audio6-19
+[Departure] yolo4-19:7/9
+[Departure] yolo10-19:7/8
+[Departure] audio2-20:6/7
+[Departure] audio2-21:4/9
+[Departure] audio6-21:4/6
+[Departure] audio10-22:4/7
+[Departure] yolo3-22:4/5
+[Departure] audio1-22:4/4
+[Departure] yolo2-22:4/10
+[Departure] yolo9-22:4/4
+init delete pods audio4-22
+[Departure] audio11-22:4/7
+[Departure] yolo10-23:2/3
+[Departure] yolo1-23:2/4
+[Departure] audio9-23:2/6
+[Departure] audio8-23:2/8
+[Departure] yolo6-23:2/7
+[Departure] yolo8-23:2/10
+[Departure] yolo5-24:1/7
+[Departure] audio3-24:1/6
+[Departure] yolo10-25:1/5
+used_storage:  5.38 used bandwidth:  0
+departure [['yolo4-15', 9, 9], ['yolo8-19', 6, 6], ['audio6-19', 6, 6], ['audio4-22', 3, 3]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio6-edge-13', 'audio3-15', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo10-13', 'yolo8-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo4-15', 'yolo8-19', 'audio6-19', 'audio4-22']
+IDA_thread is Alive
+Sleep replace time: 50
+images ['192.168.1.100:5000/iscc19:s2-audio-7', '192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-yolo-5']
+exist_images ['audio7', 'audio6', 'yolo5']
+expect_analytics ['audio6', 'audio7']
+extract_images []
+write terminal.input True
+write terminal.input False
+Pods in cloud:  ['NAME', 'audio1-22', 'audio10-22', 'audio11-16', 'audio11-22', 'audio2-20', 'audio2-21', 'audio3-24', 'audio4-22', 'audio6-21', 'audio8-23', 'audio9-23', 'yolo1-23', 'yolo10-19', 'yolo10-23', 'yolo10-25', 'yolo11-18', 'yolo12-19', 'yolo2-22', 'yolo3-22', 'yolo4-15', 'yolo4-19', 'yolo5-24', 'yolo6-23', 'yolo8-19', 'yolo8-23', 'yolo9-22']
+Pods in edge:  ['audio6-edge-19', 'audio7-edge-19']
+The passed time:  1938.059194803238
+The time of this iteration: 146.59023189544678
+time: 26
+Delete stuck app: yolo4-15
+Delete stuck app: yolo8-19
+Delete stuck app: audio6-edge-19
+Delete stuck app: audio4-22
+init delete pods audio11-16
+[Departure] yolo11-18:8/9
+[Departure] yolo12-19:8/10
+[Departure] audio7-edge-19:8/10
+[Departure] yolo4-19:8/9
+[Departure] yolo10-19:8/8
+[Departure] audio2-20:7/7
+[Departure] audio2-21:5/9
+[Departure] audio6-21:5/6
+[Departure] audio10-22:5/7
+[Departure] yolo3-22:5/5
+init delete pods audio1-22
+Init deployed Analytic: yolo10-26
+[Departure] yolo2-22:5/10
+init delete pods yolo9-22
+[Departure] audio11-22:5/7
+[Departure] yolo10-23:3/3
+[Departure] yolo1-23:3/4
+[Departure] audio9-23:3/6
+[Departure] audio8-23:3/8
+[Departure] yolo6-23:3/7
+[Departure] yolo8-23:3/10
+[Departure] yolo5-24:2/7
+[Departure] audio3-24:2/6pod/yolo1-26 created
+pod/yolo8-26 created
+pod "audio6-edge-19" deleted
+pod "audio1-22" deleted
+pod "audio11-16" deleted
+pod "yolo9-22" deleted
+pod "audio6-edge-19" deleted
+pod "audio1-22" deleted
+pod "yolo9-22" deleted
+pod "audio11-16" deleted
+pod/audio5-27 created
+pod/audio1-27 created
+pod "audio2-20" deleted
+pod "yolo3-22" deleted
+pod "yolo10-23" deleted
+pod "yolo10-19" deleted
+pod "yolo9-22" deleted
+pod "audio2-20" deleted
+pod "yolo10-23" deleted
+pod "yolo10-19" deleted
+pod "yolo3-22" deleted
+pod/yolo1-28 created
+pod/yolo12-28 created
+pod/audio5-28 created
+pod/yolo3-28 created
+pod/yolo2-28 created
+pod "yolo1-23" deleted
+pod "yolo11-18" deleted
+pod "yolo10-26" deleted
+pod "yolo4-19" deleted
+pod "audio6-21" deleted
+
+[Departure] yolo10-25:2/5
+Init deployed Analytic: yolo8-26
+Init deployed Analytic: yolo1-26
+used_storage:  5.38 used bandwidth:  0
+departure [['audio11-16', 9, 9], ['audio1-22', 4, 4], ['yolo9-22', 4, 4]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio6-edge-13', 'audio3-15', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo10-13', 'yolo8-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo4-15', 'yolo8-19', 'audio6-19', 'audio4-22', 'yolo4-15', 'yolo8-19', 'audio6-edge-19', 'audio4-22', 'audio11-16', 'audio1-22', 'yolo9-22']
+Pods in cloud:  ['NAME', 'audio1-22', 'audio10-22', 'audio11-16', 'audio11-22', 'audio2-20', 'audio2-21', 'audio3-24', 'audio4-22', 'audio6-21', 'audio8-23', 'audio9-23', 'yolo1-23', 'yolo1-26', 'yolo10-19', 'yolo10-23', 'yolo10-25', 'yolo10-26', 'yolo11-18', 'yolo12-19', 'yolo2-22', 'yolo3-22', 'yolo4-15', 'yolo4-19', 'yolo5-24', 'yolo6-23', 'yolo8-23', 'yolo8-26', 'yolo9-22']
+Pods in edge:  ['audio6-edge-19', 'audio7-edge-19']
+The passed time:  1998.1009888648987
+The time of this iteration: 60.04179406166077
+time: 27
+Delete stuck app: audio6-edge-19
+Delete stuck app: audio11-16
+Delete stuck app: audio1-22
+Delete stuck app: yolo9-22
+[Departure] yolo11-18:9/9
+[Departure] yolo12-19:9/10
+[Departure] audio7-edge-19:9/10
+[Departure] yolo4-19:9/9
+init delete pods yolo10-19
+init delete pods audio2-20
+[Departure] audio2-21:6/9
+[Departure] audio6-21:6/6
+[Departure] audio10-22:6/7
+init delete pods yolo3-22
+[Departure] yolo2-22:6/10
+[Departure] audio11-22:6/7
+init delete pods yolo10-23
+[Departure] yolo1-23:4/4
+[Departure] audio9-23:4/6
+[Departure] audio8-23:4/8
+[Departure] yolo6-23:4/7
+[Departure] yolo8-23:4/10
+[Departure] yolo5-24:3/7
+[Departure] audio3-24:3/6
+[Departure] yolo10-25:3/5
+[Departure] yolo10-26:1/1
+[Departure] yolo1-26:1/8
+[Departure] yolo8-26:1/7
+used_storage:  5.38 used bandwidth:  0
+departure [['yolo10-19', 8, 8], ['audio2-20', 7, 7], ['yolo3-22', 5, 5], ['yolo10-23', 3, 3]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio6-edge-13', 'audio3-15', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo10-13', 'yolo8-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo4-15', 'yolo8-19', 'audio6-19', 'audio4-22', 'yolo4-15', 'yolo8-19', 'audio6-edge-19', 'audio4-22', 'audio11-16', 'audio1-22', 'yolo9-22', 'audio6-edge-19', 'audio11-16', 'audio1-22', 'yolo9-22', 'yolo10-19', 'audio2-20', 'yolo3-22', 'yolo10-23']
+Init deployed Analytic: audio5-27
+Init deployed Analytic: audio1-27
+Pods in cloud:  ['NAME', 'audio1-22', 'audio1-27', 'audio10-22', 'audio11-16', 'audio11-22', 'audio2-20', 'audio2-21', 'audio3-24', 'audio5-27', 'audio6-21', 'audio8-23', 'audio9-23', 'yolo1-23', 'yolo1-26', 'yolo10-19', 'yolo10-23', 'yolo10-25', 'yolo10-26', 'yolo11-18', 'yolo12-19', 'yolo2-22', 'yolo3-22', 'yolo4-19', 'yolo5-24', 'yolo6-23', 'yolo8-23', 'yolo8-26', 'yolo9-22']
+Pods in edge:  ['audio6-edge-19', 'audio7-edge-19']
+The passed time:  2058.138684988022
+The time of this iteration: 60.03769612312317
+time: 28
+Delete stuck app: yolo9-22
+Delete stuck app: yolo10-19
+Delete stuck app: audio2-20
+Delete stuck app: yolo3-22
+Delete stuck app: yolo10-23
+init delete pods yolo11-18
+[Departure] yolo12-19:10/10
+[Departure] audio7-edge-19:10/10
+init delete pods yolo4-19
+[Departure] audio2-21:7/9
+init delete pods audio6-21
+[Departure] audio10-22:7/7
+[Departure] yolo2-22:7/10
+[Departure] audio11-22:7/7
+init delete pods yolo1-23
+[Departure] audio9-23:5/6
+[Departure] audio8-23:5/8
+[Departure] yolo6-23:5/7
+[Departure] yolo8-23:5/10
+[Departure] yolo5-24:4/7
+[Departure] audio3-24:4/6
+[Departure] yolo10-25:4/5
+init delete pods yolo10-26
+[Departure] yolo1-26:2/8
+[Departure] yolo8-26:2/7
+[Departure] audio1-27:1/2
+[Departure] audio5-27:1/8
+Init deployed Analytic: yolo12-28
+Init deployed Analytic: yolo1-28
+Init deployed Analytic: audio5-28
+used_storage:  3.02 used bandwidth:  0
+Init deployed Analytic: yolo3-28
+departure [['yolo11-18', 9, 9], ['yolo4-19', 9, 9], ['audio6-21', 6, 6], ['yolo1-23', 4, 4], ['yolo10-26', 1, 1]]
+Init deployed Analytic: yolo2-28
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio6-edge-13', 'audio3-15', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo10-13', 'yolo8-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo4-15', 'yolo8-19', 'audio6-19', 'audio4-22', 'yolo4-15', 'yolo8-19', 'audio6-edge-19', 'audio4-22', 'audio11-16', 'audio1-22', 'yolo9-22', 'audio6-edge-19', 'audio11-16', 'audio1-22', 'yolo9-22', 'yolo10-19', 'audio2-20', 'yolo3-22', 'yolo10-23', 'yolo9-22', 'yolo10-19', 'audio2-20', 'yolo3-22', 'yolo10-23', 'yolo11-18', 'yolo4-19', 'audio6-21', 'yolo1-23', 'yolo10-26']
+Pods in cloud:  ['NAME', 'audio1-27', 'audio10-22', 'audio11-22', 'audio2-20', 'audio2-21', 'audio3-24', 'audio5-27', 'audio5-28', 'audio6-21', 'audio8-23', 'audio9-23', 'yolo1-23', 'yolo1-26', 'yolo1-28', 'yolo10-19', 'yolo10-23', 'yolo10-25', 'yolo10-26', 'yolo11-18', 'yolo12-19', 'yolo12-28', 'yolo2-22', 'yolo2-28', 'yolo3-22', 'yolo3-28', 'yolo4-19', 'yolo5-24', 'yolo6-23', 'yolo8-23', 'yolo8-26', 'yolo9-22']
+Pods in edge:  ['audio7-edge-19']
+The passed time:  2118.1722526550293
+The time of this iteration: 60.033567667007446
+time: 29
+Delete stuck app:pod/yolo4-29 created
+pod "yolo10-26" deleted
+pod/audio11-29 created
+pod "audio6-21" deleted
+pod/audio4-29 created
+pod "yolo1-23" deleted
+pod "yolo11-18" deleted
+pod "yolo4-19" deleted
+pod "audio7-edge-19" deleted
+pod "yolo12-19" deleted
+pod "audio11-22" deleted
+pod "audio10-22" deleted
+pod "audio11-22" deleted
+pod "yolo10-26" deleted
+pod "yolo12-19" deleted
+pod "audio6-21" deleted
+pod "yolo1-23" deleted
+pod "yolo11-18" deleted
+pod "audio10-22" deleted
+pod "audio9-23" deleted
+pod "yolo10-25" deleted
+pod "audio11-29" deleted
+pod "audio1-27" deleted
+No resources found.
+Error from server (NotFound): pods "audio11-22" not found
+Error from server (NotFound): pods "audio6-21" not found
+Error from server (NotFound): pods "audio6-21" not found
+ yolo11-18
+Delete stuck app: yolo4-19
+Delete stuck app: audio6-21
+Delete stuck app: yolo1-23
+Delete stuck app: yolo10-26
+Init deployed Analytic: yolo4-29
+Init deployed Analytic: audio11-29
+init delete pods yolo12-19
+init delete pods audio7-edge-19
+Init deployed Analytic: audio4-29
+[Departure] audio2-21:8/9
+init delete pods audio10-22
+[Departure] yolo2-22:8/10
+init delete pods audio11-22
+[Departure] audio9-23:6/6
+[Departure] audio8-23:6/8
+[Departure] yolo6-23:6/7
+[Departure] yolo8-23:6/10
+[Departure] yolo5-24:5/7
+[Departure] audio3-24:5/6
+[Departure] yolo10-25:5/5
+[Departure] yolo1-26:3/8
+[Departure] yolo8-26:3/7
+[Departure] audio1-27:2/2
+[Departure] audio5-27:2/8
+[Departure] yolo1-28:1/3
+[Departure] audio5-28:1/2
+[Departure] yolo2-28:1/7
+[Departure] yolo12-28:1/6
+[Departure] yolo3-28:1/10
+[Departure] audio4-29:1/6
+[Departure] yolo4-29:1/5
+[Departure] audio11-29:1/1
+used_storage:  3.02 used bandwidth:  0
+departure [['yolo12-19', 10, 10], ['audio7-edge-19', 10, 10], ['audio10-22', 7, 7], ['audio11-22', 7, 7]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio6-edge-13', 'audio3-15', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo10-13', 'yolo8-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo4-15', 'yolo8-19', 'audio6-19', 'audio4-22', 'yolo4-15', 'yolo8-19', 'audio6-edge-19', 'audio4-22', 'audio11-16', 'audio1-22', 'yolo9-22', 'audio6-edge-19', 'audio11-16', 'audio1-22', 'yolo9-22', 'yolo10-19', 'audio2-20', 'yolo3-22', 'yolo10-23', 'yolo9-22', 'yolo10-19', 'audio2-20', 'yolo3-22', 'yolo10-23', 'yolo11-18', 'yolo4-19', 'audio6-21', 'yolo1-23', 'yolo10-26', 'yolo11-18', 'yolo4-19', 'audio6-21', 'yolo1-23', 'yolo10-26', 'yolo12-19', 'audio7-edge-19', 'audio10-22', 'audio11-22']
+Pods in cloud:  ['NAME', 'audio1-27', 'audio10-22', 'audio11-22', 'audio11-29', 'audio2-21', 'audio3-24', 'audio4-29', 'audio5-27', 'audio5-28', 'audio6-21', 'audio8-23', 'audio9-23', 'yolo1-23', 'yolo1-26', 'yolo1-28', 'yolo10-25', 'yolo10-26', 'yolo11-18', 'yolo12-19', 'yolo12-28', 'yolo2-22', 'yolo2-28', 'yolo3-28', 'yolo4-19', 'yolo4-29', 'yolo5-24', 'yolo6-23', 'yolo8-23', 'yolo8-26']
+Pods in edge:  ['audio7-edge-19']
+The passed time:  2178.2090454101562
+The time of this iteration: 60.03679275512695
+time: 30
+Delete stuck app: yolo11-18
+Delete stuck app: yolo4-19
+Delete stuck app: audio6-21
+Delete stuck app: yolo1-23
+Delete stuck app: yolo10-26
+Delete stuck app: yolo12-19
+Delete stuck app: audio10-22
+Delete stuck app: audio11-22
+[Departure] audio2-21:9/9
+[Departure] yolo2-22:9/10
+init delete pods audio9-23
+[Departure] audio8-23:7/8
+[Departure] yolo6-23:7/7
+[Departure] yolo8-23:7/10
+[Departure] yolo5-24:6/7
+[Departure] audio3-24:6/6
+init delete pods yolo10-25
+[Departure] yolo1-26:4/8
+[Departure] yolo8-26:4/7
+init delete pods audio1-27
+[Departure] audio5-27:3/8
+[Departure] yolo1-28:2/3
+[Departure] audio5-28:2/2
+[Departure] yolo2-28:2/7
+[Departure] yolo12-28:2/6
+[Departure] yolo3-28:2/10
+[Departure] audio4-29:2/6
+[Departure] yolo4-29:2/5
+init delete pods audio11-29
+used_storage:  0 used bandwidth:  0
+departure [['audio9-23', 6, 6], ['yolo10-25', 5, 5], ['audio1-27', 2, 2], ['audio11-29', 1, 1]]
+all_departures ['yolo10-0', 'yolo1-0', 'audio9-0', 'audio3-1', 'audio9-0', 'audio5-0', 'audio6-5', 'audio6-5', 'yolo2-2', 'yolo12-4', 'yolo2-2', 'yolo12-4', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio7-2', 'audio3-3', 'audio8-6', 'audio7-6', 'audio6-edge-1', 'audio5-4', 'audio10-4', 'yolo10-5', 'audio6-8', 'audio5-edge-1', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'yolo5-6', 'audio7-9', 'audio8-9', 'audio6-10', 'audio12-2', 'yolo3-3', 'yolo7-3', 'yolo3-3', 'yolo3-10', 'audio5-edge-10', 'audio4-12', 'audio7-edge-8', 'yolo4-11', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio7-edge-8', 'yolo11-12', 'yolo12-12', 'audio4-13', 'audio2-6', 'audio11-8', 'yolo1-11', 'yolo1-11', 'yolo5-edge-8', 'yolo5-15', 'yolo5-15', 'yolo5-9', 'yolo5-9', 'yolo1-15', 'yolo7-15', 'audio12-15', 'audio1-18', 'audio2-11', 'audio2-16', 'audio12-19', 'audio2-11', 'audio2-16', 'audio12-19', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio6-edge-13', 'audio3-15', 'yolo10-13', 'yolo8-15', 'yolo3-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo10-13', 'yolo8-15', 'yolo11-17', 'yolo9-18', 'audio3-15', 'audio12-22', 'yolo4-15', 'yolo8-19', 'audio6-19', 'audio4-22', 'yolo4-15', 'yolo8-19', 'audio6-edge-19', 'audio4-22', 'audio11-16', 'audio1-22', 'yolo9-22', 'audio6-edge-19', 'audio11-16', 'audio1-22', 'yolo9-22', 'yolo10-19', 'audio2-20', 'yolo3-22', 'yolo10-23', 'yolo9-22', 'yolo10-19', 'audio2-20', 'yolo3-22', 'yolo10-23', 'yolo11-18', 'yolo4-19', 'audio6-21', 'yolo1-23', 'yolo10-26', 'yolo11-18', 'yolo4-19', 'audio6-21', 'yolo1-23', 'yolo10-26', 'yolo12-19', 'audio7-edge-19', 'audio10-22', 'audio11-22', 'yolo11-18', 'yolo4-19', 'audio6-21', 'yolo1-23', 'yolo10-26', 'yolo12-19', 'audio10-22', 'audio11-22', 'audio9-23', 'yolo10-25', 'audio1-27', 'audio11-29']
+IDA_thread is Alive
+Sleep replace time: 120
+images ['192.168.1.100:5000/iscc19:s2-audio-7', '192.168.1.100:5000/iscc19:s2-audio-6', '192.168.1.100:5000/iscc19:s2-yolo-5']
+exist_images ['audio7', 'audio6', 'yolo5']
+expect_analytics ['audio11', 'audio11', 'audio6', 'audio7']
+Extract image: audio11
+Extraction time: 212 s
+extract_images ['audio11']
+write terminal.input True
+write terminal.input False
+Pods in cloud:  ['NAME', 'audio2-21', 'audio3-24', 'audio4-29', 'audio5-27', 'audio5-28', 'audio8-23', 'yolo1-26', 'yolo1-28', 'yolo12-28', 'yolo2-22', 'yolo2-28', 'yolo3-28', 'yolo4-29', 'yolo5-24', 'yolo6-23', 'yolo8-23', 'yolo8-26']
+Pods in edge:  ['audio7-edge-21']
+The passed time:  2540.161034822464
+The time of this iteration: 361.95198941230774
+reject: 0
+=============== Time Out ===============
+Total used time:  2540.1752457618713
