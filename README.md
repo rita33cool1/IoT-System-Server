@@ -23,58 +23,58 @@ Client Version: version.Info{Major:"1", Minor:"11", GitVersion:"v1.11.0", GitCom
 ```
 
 ## File Structure
-<font color="blue">`Implementation/`</font>
-&nbsp;|\_\_\_\_<font color="blue">`Experiment/`</font>
-&nbsp;|&emsp; &emsp;|\_\_\_\_<font color="blue">`generate_request/`</font>
-&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">run.py</font>
-&nbsp;| &emsp;&emsp;|
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`log/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`parsers/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`yaml/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_`Algorithm.log`
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`cplog.sh`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_`delete_all_images.py`
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`poisson_run.py`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_`qos_measurement_audio.py`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`qos_measurement_yolo_image.py`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`qos_measurement_yolo_result.py`
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`registry.sh`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_`replace_time.input`
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`run.sh`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_`SubQoSAudio.sh`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`SubQoSYoloImage.sh`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`SubQoSYoloResult.sh`
+<font color="blue">`Implementation/`</font> <br>
+&nbsp;|\_\_\_\_<font color="blue">`Experiment/`</font> <br>
+&nbsp;|&emsp; &emsp;|\_\_\_\_<font color="blue">`generate_request/`</font> <br>
+&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">run.py</font> <br>
+&nbsp;| &emsp;&emsp;| <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`log/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`parsers/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`yaml/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`Algorithm.log` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`cplog.sh`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`delete_all_images.py` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`poisson_run.py`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`qos_measurement_audio.py` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`qos_measurement_yolo_image.py` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`qos_measurement_yolo_result.py` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`registry.sh`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`replace_time.input` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`run.sh`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`SubQoSAudio.sh` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`SubQoSYoloImage.sh` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`SubQoSYoloResult.sh` <br>
+&nbsp;| <br>
+&nbsp;|\_\_\_\_<font color="blue">`Gateway/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector2/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector3/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector4/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector5/`</font> <br>
 &nbsp;|
-&nbsp;|\_\_\_\_<font color="blue">`Gateway/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector2/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector3/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector4/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`ObjectDector5/`</font>
-&nbsp;|
-&nbsp;|\_\_\_\_<font color="blue">`RunDeploy/`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_`analytics.input`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`departure_analytics.txt`
-&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`deploy_measure.py`</font>
-&nbsp;| &emsp;&emsp;|\_\_\_\_`exist.input`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`expect.input`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`images_download.log`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`list.txt`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`replace_time.input`
-&nbsp;| &emsp;&emsp;|\_\_\_\_`terminal.input`
-&nbsp;|
-&nbsp;|\_\_\_\_<font color="blue">`RunAllocation/`</font>
-&nbsp;|&emsp;&emsp; |\_\_\_\_<font color="blue">`Algo/`</font>
-&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">`allocate_algo.py`</font>
-&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_`produce_weights.py`
-&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">`unweighted_algo.py`</font>
-&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">`weighted_algo.py`</font>
-&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_`weights.txt`
-&nbsp;|&emsp;&emsp; |
-&nbsp;|&emsp;&emsp; |\_\_\_\_<font color="green">`QoSknob.txt`</font>
-&nbsp;|&emsp;&emsp; |\_\_\_\_<font color="green">`run.py`</font>
-&nbsp;|
-&nbsp;|\_\_\_\_<font color="green">`docker_daemon.json`</font>
+&nbsp;|\_\_\_\_<font color="blue">`RunDeploy/`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`analytics.input` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`departure_analytics.txt` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_<font color="green">`deploy_measure.py`</font> <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`exist.input` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`expect.input` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`images_download.log` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`list.txt` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`replace_time.input` <br>
+&nbsp;| &emsp;&emsp;|\_\_\_\_`terminal.input` <br>
+&nbsp;| <br>
+&nbsp;|\_\_\_\_<font color="blue">`RunAllocation/`</font> <br>
+&nbsp;|&emsp;&emsp; |\_\_\_\_<font color="blue">`Algo/`</font> <br>
+&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">`allocate_algo.py`</font> <br>
+&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_`produce_weights.py` <br>
+&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">`unweighted_algo.py`</font> <br>
+&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">`weighted_algo.py`</font> <br>
+&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_`weights.txt` <br>
+&nbsp;|&emsp;&emsp; | <br>
+&nbsp;|&emsp;&emsp; |\_\_\_\_<font color="green">`QoSknob.txt`</font> <br>
+&nbsp;|&emsp;&emsp; |\_\_\_\_<font color="green">`run.py`</font> <br>
+&nbsp;| <br>
+&nbsp;|\_\_\_\_<font color="green">`docker_daemon.json`</font> <br>
 
 ### Folders and Files
 <font color="blue">`Experiment/`</font>: Main experiments
