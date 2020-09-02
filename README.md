@@ -13,6 +13,8 @@ Tools: Python, Docker, Kubernetes, TensorFlow, MQTT, FFserver.
 
 **This repository is the server side.**
 
+**The document is [here](https://hackmd.io/@xm_QEbubQyKiLnZco2batA/IoT-System-Server).**
+
 ## Environment
 OS: Ubuntu 18.04.1 LTS
 Docker: 18.09.7
@@ -108,7 +110,7 @@ Client Version: version.Info{Major:"1", Minor:"11", GitVersion:"v1.11.0", GitCom
 
 ## Set up
 ### Build Local Registry
-Copy Implementation/docker_daemon.json to /etc/docker/daemon.json 
+Copy `Implementation/docker_daemon.json` to `/etc/docker/daemon.json`
 ```Bash
 cd Implementation
 cp docker_daemon.json /etc/docker/daemon.json
