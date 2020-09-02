@@ -28,7 +28,7 @@ Client Version: version.Info{Major:"1", Minor:"11", GitVersion:"v1.11.0", GitCom
 <font color="blue">`Implementation/`</font> <br>
 &nbsp;|\_\_\_\_<font color="blue">`Experiment/`</font> <br>
 &nbsp;|&emsp; &emsp;|\_\_\_\_<font color="blue">`generate_request/`</font> <br>
-&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">run.py</font> <br>
+&nbsp;| &emsp;&emsp;| &emsp; &ensp;|\_\_\_\_<font color="green">`run.py`</font> <br>
 &nbsp;| &emsp;&emsp;| <br>
 &nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`log/`</font> <br>
 &nbsp;| &emsp;&emsp;|\_\_\_\_<font color="blue">`parsers/`</font> <br>
@@ -156,7 +156,9 @@ python3 run.py 1 1 10 20 requests_1_1_10_20_1.txt
 | *total_time* | Total experiment time (unit is minute). <br> Ex. *40*: for a 40-minute long experiment. |
 | *duration* | Time slot duration of IDA (unit is minute) Ex. *5* |
 | *network* | Download / upload bandwidth. Ex. <br> *optical*: 100Mbps / 5Mbps <br> *up10*: 100Mbps / 10Mbps <br> |
-| *request_num* | Number of requests per minute Ex. 1 |
+| *request_per_m* | Number of requests per minute Ex. *1* |
+| *alive_time_min* | Minimal departure time (unit is minute) Ex. *1* | 
+| *alive_time_max* | Maximal departure time (unit is minute) Ex. *10* |
 | *i* | Requests version|
 | *date_time* | Time stamp |
 
